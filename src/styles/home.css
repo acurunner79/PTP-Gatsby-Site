@@ -1,0 +1,58 @@
+/* #main-banner{
+    display: none;
+  } */
+  
+  #upper-container{
+    background-color: rgba(128, 128, 128, 0.678);
+    padding: 20px 20px;
+    margin: 0 20px;
+  }
+  
+  #bob-main{
+    height: 370px;
+  }
+  
+  @media (min-width: 768px){
+  
+    div#main-banner{
+      display: block;
+      /* padding-top: 100px; */
+      margin: 0 auto;
+      height: 334px !important;
+      width: 1280px !important;
+      border: 2px solid black;
+      background-color: blue;
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 1024px){
+
+    .img{
+      height: 500px;
+      width: 500px;
+      border: 2px solid black;
+      background-color: blue;
+    }
+  
+    #mid-container{
+      display: flex;
+    }
+
+    .headshot-container{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 30px;
+    }
+
+    #bob-main{
+      display: flex;
+      flex-direction: row !important;
+      /* max-width: 300px; */
+    }
+
+    div.headshot-card , div.FaTwitter{
+      display: flex;
+      flex-direction: column;
+    }
+  }
