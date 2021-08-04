@@ -5,6 +5,23 @@
   div.slider{
     display: none;
   }
+
+  #mid-container{
+    margin: auto 10px;
+  }
+
+  div.mid-cont-card{
+    border: 2px solid rgba(63, 62, 62, 0.651) !important;
+    border-radius: 8px;
+    margin: 40px;
+    padding: 20px 20px;
+    width: 300px;
+    height: 300px;
+  }
+  div.mid-cont-card:hover{
+    background-color: white;
+    width: 310px;
+  }
   
   #upper-container{
     background-color: rgba(128, 128, 128, 0.678);
@@ -14,6 +31,9 @@
   
   #bob-main{
     height: 370px;
+  }
+  .twitter-icon{
+    margin: 0 auto;
   }
   
   @media (min-width: 768px){
@@ -47,11 +67,12 @@
   
     #mid-container{
       display: flex;
+      justify-content: center;
     }
 
     .headshot-container{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       padding-top: 30px;
     }
 
