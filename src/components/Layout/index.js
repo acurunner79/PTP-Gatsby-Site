@@ -1,5 +1,6 @@
 import React from "react"
 import { createGlobalStyle } from "styled-components";
+
 import Nav from '../Nav/index'
 import Footer from '../Footer/index'
 
@@ -24,14 +25,17 @@ h3{
 `
 
 
-export const Layout = ({ children }) => {
+const Layout = ({ children }) => {
 
   return (
       <div>
             <GlobalStyle />
             <Nav />
                 <section>{children}</section>
+               
             <Footer />
       </div>
   );
 };
+
+export default Layout

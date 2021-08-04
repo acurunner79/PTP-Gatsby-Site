@@ -1,10 +1,14 @@
 import * as React from "react"
-import { Layout } from 'components'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
+import { Carousel } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaTwitter, FaDesktop, FaChartLine, FaLaptop, FaUser } from 'react-icons/fa'
 import '../styles/home.css'
 
 
-const IndexPage = () => {
+const IndexPage = (props) => {
   return (
     <Layout>
       <div id="main-banner">max-width: 1280px<br/>max-height: 334px</div>
@@ -12,6 +16,28 @@ const IndexPage = () => {
             <h1>A Path Less Traveled</h1>
             <p>Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
           </div>
+          <div className="slider">
+            <Carousel>
+              <Carousel.Item>
+                <Img fluid={props.data.slideImage1.childImageSharp.fluid} alt="1"/>
+                <Carousel.Caption>
+                  <h3>Image is 1280px x 500px</h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Img fluid={props.data.slideImage2.childImageSharp.fluid} alt="1"/>
+              <Carousel.Caption>
+              <h3>Image is 1280px x 500px</h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Img fluid={props.data.slideImage3.childImageSharp.fluid} alt="1"/>
+              <Carousel.Caption>
+              <h3>Image is 1280px x 500px</h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+        </div>
           <div className="headshot-container">
             <div className="headshot-card">
               <div className="img">Headshot<br/>500px x 500px</div>
@@ -56,3 +82,29 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+export const query = graphql`
+  query {
+    slideImage1: file(relativePath: {eq: "img1.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 4000, maxHeight: 1500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    slideImage2: file(relativePath: {eq: "img2.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 4000, maxHeight: 1500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    slideImage3: file(relativePath: {eq: "img3.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 4000, maxHeight: 1500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

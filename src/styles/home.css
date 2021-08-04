@@ -1,6 +1,10 @@
 /* #main-banner{
     display: none;
   } */
+
+  div.slider{
+    display: none;
+  }
   
   #upper-container{
     background-color: rgba(128, 128, 128, 0.678);
@@ -13,6 +17,12 @@
   }
   
   @media (min-width: 768px){
+    
+    div.slider{
+      display: block;
+      margin: 40px auto;
+      max-width: 1280px;
+    }
   
     div#main-banner{
       display: block;
