@@ -7,3 +7,12 @@ h1{
     /* width: 1200px; */
     text-align: center;
 }
+
+#lower-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-card{
+    border: 2px solid black;
+}

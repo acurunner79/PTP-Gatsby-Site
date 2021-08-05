@@ -11,29 +11,29 @@ const Contact = () => {
                 <div id="contact-card">
                     <h1>Contact Us</h1>
                 <form>
-                    <p className ="form-title">Name</p>
+                    <label className ="form-title">Name</label>
                 <input className="form-input"
                   type="name"
                   name ="name"
-                  placeholder="   (Required)"></input>
+                  placeholder=" (Required)"></input>
                 <br/>
-                    <p className ="form-title">Email</p>
+                    <label className ="form-title">Email</label>
                 <input className="form-input"
                   type="email"
                   name="email"
-                  placeholder="   (Required)"></input>
+                  placeholder=" (Required)"></input>
                 <br/>
-                    <p className ="form-title">Subject</p>
+                    <label className ="form-title">Subject</label>
                 <input className="form-input"
                   type="name"
                   name="subject"
-                  placeholder="   (Required)"></input>
+                  placeholder=" (Required)"></input>
                 <br/>
-                    <p className ="form-title">Message</p>
+                    <label className ="form-title">Message</label>
                 <input
                   id="message"
                   name="message"
-                  placeholder="How can we help you?"></input>
+                  placeholder=" How can we help you?"></input>
                   <br/>
                   <button id="form-submit" type="submit">Submit</button>
                 </form>
