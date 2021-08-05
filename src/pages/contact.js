@@ -30,10 +30,10 @@ const Contact = () => {
                   placeholder=" (Required)"></input>
                 <br/>
                     <label className ="form-title">Message</label>
-                <input
+                <textarea
                   id="message"
                   name="message"
-                  placeholder=" How can we help you?"></input>
+                  placeholder=" How can we help you?"></textarea>
                   <br/>
                   <button id="form-submit" type="submit">Submit</button>
                 </form>

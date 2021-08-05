@@ -1,16 +1,17 @@
 #contact-form{
     
-    margin: auto ;
+    margin: 40px auto;
 }
 
 #contact-card{
     background-color: gray;
     border-radius: 4px;
+    padding: 10px;
 }
 
 .form-title{
     display: flex;
-    padding-left: 40px;
+    padding:10px 0 10px 40px;
 }
 
 .form-input{
@@ -23,6 +24,7 @@
 #message{
     width: 80%;
     height: 80px;
+    border-radius: 4px;
 }
 
 #form-submit{

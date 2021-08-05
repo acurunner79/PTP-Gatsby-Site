@@ -1,89 +1,137 @@
-/* #main-banner{
-    display: none;
-  } */
-
-  div.slider{
+#main-banner{
     display: none;
   }
+
+p{
+  font-size: 15px;
+}
+
+#upper-container{
+  /* background-color: rgba(128, 128, 128, 0.678); */
+  padding: 20px 20px;
+  margin: 0 20px;
+}
+
+div.slider{
+  display: none;
+}
+
+#mid-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto !important;
+}
+
+div.mid-cont-card{
+  border: 2px solid rgba(63, 62, 62, 0.651) !important;
+  border-radius: 8px;
+  margin: 40px;
+  padding: 20px 20px;
+  width: 300px;
+  height: 300px;
+}
+div.mid-cont-card:hover{
+  background-color: rgb(156, 147, 147);
+}
+
+
+#bob-main{
+  height: 370px;
+}
+
+.image{
+  width: 375px;
+  margin: 0 auto;
+}
+.twitter-icon{
+  margin: 0 auto;
+}
+
+@media(min-width: 424px){
 
   #mid-container{
-    margin: auto 10px;
+    margin: 0 auto !important;
   }
+}
 
-  div.mid-cont-card{
-    border: 2px solid rgba(63, 62, 62, 0.651) !important;
-    border-radius: 8px;
-    margin: 40px;
-    padding: 20px 20px;
-    width: 300px;
-    height: 300px;
-  }
-  div.mid-cont-card:hover{
-    background-color: white;
-    width: 310px;
-  }
-  
-  #upper-container{
-    background-color: rgba(128, 128, 128, 0.678);
-    padding: 20px 20px;
-    margin: 0 20px;
-  }
-  
-  #bob-main{
-    height: 370px;
-  }
-  .twitter-icon{
+@media (min-width: 768px){
+
+  p{
+    width: 550px;
     margin: 0 auto;
   }
   
-  @media (min-width: 768px){
-    
-    div.slider{
-      display: block;
-      margin: 40px auto;
-      max-width: 1280px;
-    }
-  
-    div#main-banner{
-      display: block;
-      /* padding-top: 100px; */
-      margin: 0 auto;
-      height: 334px !important;
-      width: 1280px !important;
-      border: 2px solid black;
-      background-color: blue;
-      font-size: 50px;
-    }
+  p.path-text{
+    width: 275px;
+    height: 250px;
+    /* padding: 15px; */
+    /* margin: 10px; */
+    text-align: center;
+  }
+
+  .carousel-image{
+    border-radius: 10px !important;
+
   }
   
-  @media (min-width: 1024px){
-
-    .img{
-      height: 500px;
-      width: 500px;
-      border: 2px solid black;
-      background-color: blue;
-    }
-  
-    #mid-container{
-      display: flex;
-      justify-content: center;
-    }
-
-    .headshot-container{
-      display: flex;
-      justify-content: space-evenly;
-      padding-top: 30px;
-    }
-
-    #bob-main{
-      display: flex;
-      flex-direction: row !important;
-      /* max-width: 300px; */
-    }
-
-    div.headshot-card , div.FaTwitter{
-      display: flex;
-      flex-direction: column;
-    }
+  div.slider{
+    display: block;
+    margin: 40px auto;
+    max-width: 1280px;
   }
+
+  div#main-banner{
+    display: block;
+    /* padding-top: 100px; */
+    margin: 0 auto;
+    height: 334px !important;
+    width: 768px !important;
+    border: 2px solid black;
+    background-color: blue;
+    font-size: 50px;
+  }
+
+  #mid-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1024px){
+
+  .image{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: blue;
+  }
+
+  #mid-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .headshot-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+  }
+
+  #bob-main{
+    display: flex;
+    flex-direction: row !important;
+    /* max-width: 300px; */
+  }
+
+  div.headshot-card , div.FaTwitter{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(min-width: 1339px){
+
+  div#main-banner{
+    width: 1280px !important;
+  }
+}

@@ -43,16 +43,21 @@ div.right-nav.open {
     font-size: 20px;
  }
 
- @media (min-width: 768px) {
-     .right-nav {
-         width: 100%;
-         right: -750px;
-     }
- }
+@media(min-width: 424px){
+    .right-nav{
+        right: -750px;
+    }
+}
 
- @media (min-width: 1024px) {
-     .right-nav{
-         width: 0;
-         right: -300px;
-     }
- }
+@media (min-width: 768px) {
+    .right-nav {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .right-nav{
+        width: 0;
+        right: -300px;
+    }
+}

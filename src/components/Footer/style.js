@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 
 export const FooterWrapper = styled.div`
-    #footer{
+    div#footer{
     width: 100%;
-    background-color: black;
+    background-color: black !important;
     position: absolute;
     left:0;
     bottom: 250;
@@ -16,13 +16,15 @@ export const FooterWrapper = styled.div`
 p#trademark{
     font-size: 10px;
     color: white;
-    margin: 20px 20px;
-    
+    margin: 0 auto;
+    width: 968px;
 }
 
 #social-media{
     display: flex;
     justify-content: space-around;
     padding: 0 110px;
+    width: 768px;
+    margin: 0 auto;
 }
 `
