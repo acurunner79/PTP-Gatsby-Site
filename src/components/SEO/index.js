@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 
-const SEO = () => {
+const Seo = () => {
     return (
         <Helmet
             htmlAttributes={{
