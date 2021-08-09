@@ -2,29 +2,43 @@ import styled from "styled-components";
 
 
 export const FooterWrapper = styled.div`
-    div#footer{
+div#footer-main{
     width: 100%;
-    background-color: black !important;
     position: absolute;
-    left:0;
-    bottom: 250;
+    /* bottom: -1500; */
     right:0;
-    /* top: -200; */
-    /* margin-top: 80px; */
+    background: black !important;
 }
 
 p#trademark{
-    font-size: 10px;
+    font-size: 12px;
     color: white;
-    margin: 0 auto;
-    width: 968px;
+    margin: 0 auto !important;
+    width: 360px;
 }
 
 #social-media{
     display: flex;
     justify-content: space-around;
     padding: 0 110px;
-    width: 768px;
-    margin: 0 auto;
+    width: 360px;
+    margin: 0 auto !important;
+}
+
+@media(min-width: 767px){
+
+    p#trademark{
+       width: 760px; 
+    }
+
+    #social-media{
+        width: 760px;
+    }
+}
+
+@media(min-width: 1023px){
+    p#trademark{
+       width: 1020px; 
+    }
 }
 `

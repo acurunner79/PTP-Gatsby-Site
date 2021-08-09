@@ -9,30 +9,22 @@ const RightNav = (props) => {
     return (     
     <div className="links-container">
         <Link to="/">
-          <li className="links" onClick={props.handleClick}>
+          <li className="links">
             Home
           </li>
         </Link>
-          {/* <a className="links" target="_blank" rel="noreferrer" href="https://twitter.com/Bob_Iaccino">
-            <li>Bob Iaccino's Twitter</li>
-          </a>
-        <Link>
-          <li className="links" onClick={props.handleClick}>
-            Path Trading's Twitter
-          </li>
-        </Link> */}
         <Link to="/courses">
-            <li className="links" onClick={props.handleClick}>
+            <li className="links" >
               Courses
             </li>
         </Link>
         <Link to="/about">
-            <li className="links" onClick={props.handleClick}>
+            <li className="links" >
               About Us
             </li>
         </Link>
         <Link to="/contact">
-            <li className="links" onClick={props.handleClick}>
+            <li className="links">
               Contact Us
             </li>
         </Link>       

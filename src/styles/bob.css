@@ -1,0 +1,18 @@
+div#about-bob-container{
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding: 0 auto !important;
+}
+
+div#bob-text-area{
+    /* margin: 50px 0 0 0; */
+    padding: 100px auto !important;
+    /* width: 100% !important; */
+}
+
+img{
+    /* width: 500px;
+    height: 556px; */
+    /* display: block !important; */
+    padding: 0 auto !important;
+}

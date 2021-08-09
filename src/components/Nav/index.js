@@ -8,7 +8,7 @@ import './nav.css'
 const Nav = () => {
     return ( 
         <div className="_nav">
-           <Link>
+           <Link to="/">
                <div className="navlogo">
                      NavLogo<br/>width: 232px<br/>height: 50px
                </div>

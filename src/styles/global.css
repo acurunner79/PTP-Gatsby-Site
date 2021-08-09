@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SubwayTicker";
+    src: url("../../src/fonts/SubwayTicker/SubwayTicker.woff")   format("woff");
+} 
+
+div#stock-ticker-container{
+  background-color: rgb(24, 22, 22) !important;
+
+}
+
+h1.headline{
+    font-family: 'SubwayTicker';
+    color: green !important;
+}

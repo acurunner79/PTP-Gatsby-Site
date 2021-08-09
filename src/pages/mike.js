@@ -9,7 +9,7 @@ const Mike = () => {
             <div>
                 <h1>Michael G Arnold</h1>
                 <div id="about-mike-container">
-                    <img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_500/v1628190633/MIKE-A1_m6idie.jpg"/>
+                    <img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_500/v1628190633/MIKE-A1_m6idie.jpg" alt="mike"/>
                     <ul>
                         <li>25 Year Market Veteran</li>
                         <li>Teaching Traders Online and in Person for 10+ Years</li>

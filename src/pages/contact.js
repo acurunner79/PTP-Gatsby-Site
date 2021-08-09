@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/index'
+import MoveStuffAround from '../components/StockTicker'
 import '../styles/contact.css'
 
 
@@ -11,31 +12,39 @@ const Contact = () => {
                 <div id="contact-card">
                     <h1>Contact Us</h1>
                 <form>
-                    <label className ="form-title">Name</label>
-                <input className="form-input"
-                  type="name"
-                  name ="name"
-                  placeholder=" (Required)"></input>
+                    <label className ="form-title">Name
+                        <input className="form-input"
+                            type="name"
+                            name ="name"
+                            placeholder=" (Required)">
+                        </input>
+                    </label>
                 <br/>
-                    <label className ="form-title">Email</label>
-                <input className="form-input"
-                  type="email"
-                  name="email"
-                  placeholder=" (Required)"></input>
-                <br/>
-                    <label className ="form-title">Subject</label>
-                <input className="form-input"
-                  type="name"
-                  name="subject"
-                  placeholder=" (Required)"></input>
-                <br/>
-                    <label className ="form-title">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder=" How can we help you?"></textarea>
-                  <br/>
-                  <button id="form-submit" type="submit">Submit</button>
+                    <label className ="form-title">Email
+                        <input className="form-input"
+                            type="email"
+                            name="email"
+                            placeholder=" (Required)">
+                        </input>
+                    </label>
+                        <br/>
+                    <label className ="form-title">Subject
+                        <input className="form-input"
+                            type="name"
+                            name="subject"
+                            placeholder=" (Required)">
+                        </input>
+                    </label>
+                        <br/>
+                    <label className ="form-title">Message
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder=" How can we help you?">
+                        </textarea>
+                    </label>
+                        <br/>
+                    <button id="form-submit" type="submit">Submit</button>
                 </form>
                 </div>
                 <div id="contact-info">
@@ -47,6 +56,7 @@ const Contact = () => {
                     <p>7am-4pm CST</p>
                 </div>
             </div>
+            <MoveStuffAround />
         </Layout>
     )
 }

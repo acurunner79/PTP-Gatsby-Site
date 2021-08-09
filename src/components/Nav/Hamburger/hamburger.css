@@ -1,6 +1,6 @@
 div.hamburger {
     padding-top: 40px;
-    position: fixed;
+    position: absolute;
     /* bottom: 35px; */
     right: 45px;
     width: 2rem;
@@ -20,7 +20,7 @@ div.hamburger {
     transition: all 0.3s ease-in-out; 
     padding: 2px 0 2px 0;
     margin: 1px 0 2px 0;
-    background: rgb(0, 183, 255);
+    background: white;
 }
  #two {
    
@@ -32,7 +32,7 @@ div.hamburger {
     transition: all 0.3s ease-in-out; 
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
-    background: rgb(0, 183, 255);
+    background: white;
 }
  #three { 
     width: 2.5rem;
@@ -43,7 +43,7 @@ div.hamburger {
     transition: all 0.3s ease-in-out;
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
-    background: rgb(0, 183, 255);
+    background: white;
 }
 
 @media (min-width: 1024px) {

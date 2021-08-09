@@ -3,6 +3,7 @@ import Layout from '../components/Layout/index'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Carousel } from 'react-bootstrap'
+import MoveStuffAround from '../components/StockTicker'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaTwitter, FaDesktop, FaChartLine, FaLaptop, FaUser } from 'react-icons/fa'
 import '../styles/home.css'
@@ -18,6 +19,7 @@ const IndexPage = (props) => {
             <h2>A Path Less Traveled</h2>
             <p>Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
           </div>
+          <MoveStuffAround />
           <div className="slider">
             <Carousel class="rounded">
               <Carousel.Item>
