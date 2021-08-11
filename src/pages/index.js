@@ -12,14 +12,15 @@ import '../styles/home.css'
 const IndexPage = (props) => {
   return (
     <Layout>
-      <div id="main-banner">max-width: 1280px<br/>max-height: 334px</div>
+      {/* <div id="main-banner">max-width: 1280px<br/>max-height: 334px</div> */}
           <div id="upper-container">
             <h1>Welcome to Path Trading Partners</h1>
             <br/>
             <h2>A Path Less Traveled</h2>
             <p>Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
+            {/* <h3>Sponsored by</h3> */}
           </div>
-          <MoveStuffAround />
+          {/* <MoveStuffAround /> */}
           <div className="slider">
             <Carousel class="rounded">
               <Carousel.Item>
@@ -42,22 +43,22 @@ const IndexPage = (props) => {
               </Carousel.Item>
             </Carousel>
           </div>
-          <div className="headshot-container">
+          {/* <div className="headshot-container">
             <div className="headshot-card">
-              {/* <div className="img">Headshot<br/>500px x 500px</div> */}
-              <img className="image" src="https://res.cloudinary.com/acurunner79/image/upload/v1624909640/5f8f3e451826c8978d6c8c3d_Bob_20Iaccino_20Headshot_oeteq4.jpg" alt="bob"/>
+              <div className="img">Headshot<br/>500px x 500px</div>
+              <img className="image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190051/bob-i_qjkyxl.jpg" alt="bob"/>
               <h2>Bob Iaccino</h2>
               <p>Chief Market Strategist</p>
-              <FaTwitter className="twitter-icon" size="40"/>
+              <FaTwitter className="twitter-icon" size="40" color="rgb(0, 183, 255)"/>
             </div>
             <div className="headshot-card">
-            {/* <div className="img">Headshot<br/>500px x 500px</div> */}
-              <img className="image" src="https://res.cloudinary.com/acurunner79/image/upload/v1624909640/5f8f3e451826c8978d6c8c3d_Bob_20Iaccino_20Headshot_oeteq4.jpg" alt="bob"/>
+            <div className="img">Headshot<br/>500px x 500px</div>
+              <img className="image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190633/MIKE-A1_m6idie.jpg" alt="bob"/>
               <h2>Mike Arnold</h2>
               <p>Head of Trading Systems</p>
-              <FaTwitter className="twitter-icon" size="40"/>
+              <FaTwitter className="twitter-icon" size="40" color="rgb(0, 183, 255)"/>
             </div>
-          </div>
+          </div> */}
             <h1>Find Your Path</h1>
           <div id="mid-container">
             <div className="mid-cont-card">

@@ -3,7 +3,6 @@ h1{
 }
 
 #about-container{
-    background-color: gray;
     /* width: 1200px; */
     text-align: center;
 }
@@ -14,7 +13,13 @@ h1{
 }
 
 .about-card{
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(63, 62, 62, 0.651);
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    margin: 40px 0;
 }
 
 .buttons{

@@ -9,9 +9,9 @@ const Nav = () => {
     return ( 
         <div className="_nav">
            <Link to="/">
-               <div className="navlogo">
+               {/* <div className="navlogo">
                      NavLogo<br/>width: 232px<br/>height: 50px
-               </div>
+               </div> */}
               {/* <img className="navlogo" src="" alt=""></img> */}
            </Link>
            <div className="menu-bar">

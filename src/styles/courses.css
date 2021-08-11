@@ -1,7 +1,31 @@
-article{
-    color: white;
+h2 a{
+    color: inherit;
 }
 
-div#tools-container{
-    background: gray;
+div#shop-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 230px !important;
 }
+
+.shop-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(63, 62, 62, 0.651);
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+#courses-icon{
+    margin: 30px;
+}
+
+#motivewave-logo{
+    width: 140px;
+    height: 140px;
+}
+
+.shop-card:hover{
+    background-color: rgb(156, 147, 147);
+  }

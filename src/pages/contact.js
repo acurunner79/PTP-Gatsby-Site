@@ -12,15 +12,15 @@ const Contact = () => {
                 <div id="contact-card">
                     <h1>Contact Us</h1>
                 <form>
-                    <label className ="form-title">Name
+                    <label className ="form-title">Name<br/>
                         <input className="form-input"
                             type="name"
                             name ="name"
                             placeholder=" (Required)">
                         </input>
                     </label>
-                <br/>
-                    <label className ="form-title">Email
+                        <br/>
+                    <label className ="form-title">Email<br/>
                         <input className="form-input"
                             type="email"
                             name="email"
@@ -28,7 +28,7 @@ const Contact = () => {
                         </input>
                     </label>
                         <br/>
-                    <label className ="form-title">Subject
+                    <label className ="form-title">Subject<br/>
                         <input className="form-input"
                             type="name"
                             name="subject"
@@ -36,7 +36,7 @@ const Contact = () => {
                         </input>
                     </label>
                         <br/>
-                    <label className ="form-title">Message
+                    <label className ="form-title">Message<br/>
                         <textarea
                             id="message"
                             name="message"

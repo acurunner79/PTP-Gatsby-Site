@@ -9,7 +9,7 @@ p{
 #upper-container{
   /* background-color: rgba(128, 128, 128, 0.678); */
   padding: 20px 20px;
-  margin: 0 20px;
+  margin: 80px 20px;
 }
 
 div.slider{
@@ -100,7 +100,7 @@ div.mid-cont-card:hover{
 @media (min-width: 1024px){
 
   .image{
-    height: 400px;
+    height: 444px;
     width: 400px;
     border: 2px solid black;
     background-color: blue;

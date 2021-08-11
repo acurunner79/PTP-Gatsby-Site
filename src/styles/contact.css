@@ -1,27 +1,29 @@
-#contact-form{
+/* #contact-form{
     margin: 40px auto;
-}
+} */
 
 #contact-card{
     background-color: gray;
     border-radius: 4px;
     padding: 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .form-title{
-    display: flex;
-    padding:10px 0 10px 40px;
+    /* display: block; */
+    padding:10px 0 20px 0 !important;
+    text-align: left;
 }
 
 .form-input{
     border: transparent;
     border-radius: 4px;
-    width: 80%;
+    width: 270px;
     height: 40px;
 }
 
 #message{
-    width: 80%;
+    width: 270px;
     height: 80px;
     border-radius: 4px;
 }
@@ -44,16 +46,27 @@
 
 @media(min-width: 767px){
     #contact-form{
-        width: 768px;
+        width: 760px;
     }
 
     .form-title{
-        padding: 10px 0 10px 75px;
+        padding: 10px 0 10px 0;
+    }
+    
+    .form-input{
+        width: 450px;  
+    }
+
+    #message{
+        width: 450px;
     }
 }
 
 @media(min-width: 1023px){
     .form-title{
         padding: 10px 0 10px 80px;
+    }
+    #contact-form{
+        margin: 0 auto;
     }
 }
