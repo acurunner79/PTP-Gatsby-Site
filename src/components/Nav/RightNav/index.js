@@ -18,6 +18,11 @@ const RightNav = (props) => {
               Courses
             </li>
         </Link>
+        <Link to="/tools">
+            <li className="links" >
+              Tools
+            </li>
+        </Link>
         <Link to="/about">
             <li className="links" >
               About Us

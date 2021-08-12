@@ -1,0 +1,48 @@
+div#tools-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin: 40px 80px !important; */
+}
+
+.tools-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(63, 62, 62, 0.651);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+#tools-ul li{
+    font-size: 14px !important;
+    text-align: left;
+}
+
+#motivewave-logo{
+    width: 240px;
+    height: 240px;
+}
+
+#ninjatrader-logo{
+    width: 397px;
+    height: 137px;
+    padding: 40px; 
+}
+
+#kinetick-logo{
+    width: 397px;
+    padding: 40px;
+}
+
+/* h3.motivewave-links{
+    padding-top: 130px;
+} */
+
+@media(min-width: 767px){}
+
+/* h3.kinetick-links{
+    padding-top: 210px;
+} */

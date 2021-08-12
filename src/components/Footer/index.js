@@ -1,4 +1,5 @@
 import React from 'react' 
+import { Link } from 'gatsby'
 import { FooterWrapper } from './style'
 import {FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaInstagram} from 'react-icons/fa'
 import { AiOutlineMail, AiOutlineFieldTime } from 'react-icons/ai'
@@ -32,16 +33,28 @@ const Footer = () => {
                 <div id="grid-2">
                     <ul>
                         <h3>Navigate</h3>
-                        <li>Home</li>
-                        <li>Courses</li>
-                        <li>About us</li>
-                        <li>Contact us</li>
+                        <Link to="/">
+                            <li>Home</li>
+                        </Link>
+                        <Link to="/courses">
+                            <li>Courses</li>
+                        </Link>
+                        <Link to="/tools">
+                            <li>Tools</li>
+                        </Link>
+                        <Link to="/about">
+                            <li>About us</li>
+                        </Link>
+                        <Link to="/contact">
+                            <li>Contact us</li>
+                        </Link>
                     </ul>
                 </div>
                 <div id="grid-3">
                     <ul>
+                        
                         <h3>Resourses</h3>
-                        <li>PureXposure</li>
+                        <li><a target="_blank" rel="noreferrer" href="https://www.purexposuremediagroup.com/">PureXposure</a></li>
                         <li>Shop Think Tank</li>
                         <li>Our Sponsors</li>
                         <li>Terms & Conditions</li>

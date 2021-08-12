@@ -17,13 +17,6 @@ const Courses = () => {
                     <BsArrowDown size="70" color="white"/>
                     <h2><a target="_blank" rel="noreferrer" href="https://path-trading-partners.teachable.com/">Enroll now</a></h2>
                 </div>
-                <div className="shop-card">
-                    <h1>Tools</h1>
-                    <img id="motivewave-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1628536007/logo_250x250_2_bykyty.png" alt="Motive Wave"></img>
-                    <p>With the 5 Editions of our software plus our mix and match Modules, we’re confident you’ll find the right combination of features and functionality to meet your charting analysis and trading needs while staying within your budget. Just Starting out in Trading? Try our Charts or Trade Edition. Interested in Automated Trading Strategies and BackTesting/Optimization? Try our Strategy Edition. Looking for a Robust Trading Platform? Try our Professional Edition. Want all the bells and whistles including Full Strategy Trading and Elliott Wave with All Degrees Supported? Our Ultimate Edition is for you.</p>
-                    <BsArrowDown size="70" color="white"/>
-                    <h2><a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP">Get your 14 day free trail</a></h2>
-                </div>
             </div>
         </Layout>
     )
