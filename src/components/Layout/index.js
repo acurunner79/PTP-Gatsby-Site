@@ -5,7 +5,8 @@ import Footer from '../Footer/index'
 
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rajdhani:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
   height: 100%;
@@ -15,7 +16,7 @@ body {
   background-repeat: no-repeat;
   /* background-position: 0px 0px, 50% 0%; */
   margin: 0;
-  font-family: 'Poppins',sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: 500;
 }
 
