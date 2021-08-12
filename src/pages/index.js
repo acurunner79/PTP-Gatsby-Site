@@ -81,6 +81,10 @@ const IndexPage = (props) => {
                 <h2>Mentoring</h2>
                 <p className="path-text">Education cannot cover all possible trading scenarios. We offer live Q&A webinars to help you with situation specific questions.</p>
             </div>
+            <div id="lower-container">
+              <img src="https://res.cloudinary.com/acurunner79/image/upload/v1628741278/welcome_1_plasga.png" alt="ninjatrader-logo"/>
+              <img src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/>
+            </div>
           </div>
     </Layout>
   )
