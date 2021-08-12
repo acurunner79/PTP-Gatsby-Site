@@ -77,7 +77,11 @@ div.mid-cont-card:hover{
   div.slider{
     display: block;
     margin: 40px auto;
-    max-width: 1280px;
+    width: 1280px;
+  }
+
+  .carousel-control-next, .carousel-control-prev, .carousel-indicators{
+    display: center !important;
   }
 
   div#main-banner{

@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 
 export const FooterWrapper = styled.div`
-li, h5{
+li{
+    font-size: 14px;
+    color: lightgray;
+    padding: 6px 0;
+}
+h5{
     font-size: 14px;
     color: white;
     padding: 6px 0;
@@ -55,7 +60,7 @@ div#footer-main{
 
 #grid-5{
     grid-area: 4/1/5/3;
-    border-top: 2px solid white;
+    border-top: 2px solid rgba(63, 62, 62, 0.651);
     padding: 10px 0 10px 0;
 }
 @media(min-width: 767px){
