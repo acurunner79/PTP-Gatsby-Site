@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 
 export const FooterWrapper = styled.div`
-li{
+ul li{
     font-size: 14px;
     color: lightgray;
-    padding: 6px 0;
+    padding: 6px 0 !important;
 }
 h5{
     font-size: 14px;

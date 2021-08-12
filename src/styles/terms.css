@@ -1,0 +1,20 @@
+#terms-container{
+    margin: 40px auto;
+}
+
+.terms-paragraph{
+    width: 374px;
+    padding: 20px 0;
+}
+
+@media(min-width: 767px){
+    #terms-container{
+        margin: 0 auto;
+        padding-bottom: 80px;
+    }
+    
+    .terms-paragraph{
+        text-align: left;
+        width: 768px;
+    }
+}

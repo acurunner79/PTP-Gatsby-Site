@@ -84,9 +84,10 @@ const IndexPage = (props) => {
             <div id="lower-container">
               <h2>Vendors</h2>
               <div id="vendors-card">
-                <img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="ninjatrader-logo"/>
-                <img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="kinetick-logo"/>
-                <img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/>
+                <a target="_blank" rel="noreferrer" href="http://ninjatrader.com/LP/VendorDemo/"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="ninjatrader-logo"/></a>
+                <a target="_blank" rel="noreferrer" href="http://kinetick.com/NinjaTrader"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="kinetick-logo"/></a>
+                <a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png"/></a>
+                <a target="_blank" rel="noreferrer" href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHpUNzdkbGVBZUdIYlFGeTV3ejJxRHotZFlkd3xBQ3Jtc0tsVFNMV25TUmk4R1B6TXU0dmFTVm1NMVlTYXp3R3FkOWpxSXV4cm01T182a1I5dTJkYUdROUxPemJIQnpTNW90dW0wb01lZDNONmhwdWI5SUVyZDYwcFNOMWhMQXAwMXVQS3B4OGFPaWFNcWVXQUhGVQ&q=https%3A%2F%2Fwww.tradingview.com%2Fgopro%2F%3Fshare_your_love%3Dspekul8r"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628807971/logo-preview_lgceto.png" alt="motivewave-logo"/></a>
             </div>
               </div>
           </div>
