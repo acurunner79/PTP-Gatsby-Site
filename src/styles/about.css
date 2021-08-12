@@ -3,7 +3,8 @@ h1{
 }
 
 #about-container{
-    /* width: 1200px; */
+    margin: 0 auto;
+    width: 1200px;
     text-align: center;
 }
 
@@ -20,6 +21,15 @@ h1{
     padding: 10px;
     align-items: center;
     margin: 40px 0;
+}
+
+.headshot-card{
+    padding: 0;
+}
+
+img.img{
+    width: 550px !important;
+    border-radius: 10px;
 }
 
 .buttons{

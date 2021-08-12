@@ -25,8 +25,7 @@ const About = () => {
                 </div>
                 <div className="headshot-container">
                     <div className="headshot-card">
-                        <div className="img">Headshot<br/>500px x 500px</div>
-                        <img src="https://res.cloudinary.com/acurunner79/image/upload/v1624909640/5f8f3e451826c8978d6c8c3d_Bob_20Iaccino_20Headshot_oeteq4.jpg" alt="bob"/>
+                        <img className="img" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190051/bob-i_qjkyxl.jpg" alt="bob"/>
                         <h2>Bob Iaccino</h2>
                         <p>Chief Market Strategist</p>
                         <Link to="/bob">
@@ -34,8 +33,7 @@ const About = () => {
                         </Link>
                     </div>
                     <div className="headshot-card">
-                        <div className="img">Headshot<br/>500px x 500px</div>
-                        <img src="https://res.cloudinary.com/acurunner79/image/upload/v1624909640/5f8f3e451826c8978d6c8c3d_Bob_20Iaccino_20Headshot_oeteq4.jpg" alt="bob"/>
+                        <img className="img" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190633/MIKE-A1_m6idie.jpg" alt="mike"/>
                         <h2>Mike Arnold</h2>
                         <p>Head of Trading Systems</p>
                         <Link to="/mike">
