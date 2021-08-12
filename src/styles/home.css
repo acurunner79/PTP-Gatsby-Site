@@ -80,8 +80,12 @@ div.mid-cont-card:hover{
     width: 1280px;
   }
 
-  .carousel-control-next, .carousel-control-prev, .carousel-indicators{
+  .carousel-control-next, .carousel-control-prev{
     display: center !important;
+  }
+
+  .carousel-indicators{
+    bottom: -700px;
   }
 
   div#main-banner{
