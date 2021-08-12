@@ -82,9 +82,13 @@ const IndexPage = (props) => {
                 <p className="path-text">Education cannot cover all possible trading scenarios. We offer live Q&A webinars to help you with situation specific questions.</p>
             </div>
             <div id="lower-container">
-              <img src="https://res.cloudinary.com/acurunner79/image/upload/v1628741278/welcome_1_plasga.png" alt="ninjatrader-logo"/>
-              <img src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/>
+              <h2>Vendors</h2>
+              <div id="vendors-card">
+                <img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="ninjatrader-logo"/>
+                <img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="kinetick-logo"/>
+                <img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/>
             </div>
+              </div>
           </div>
     </Layout>
   )

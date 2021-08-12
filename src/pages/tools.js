@@ -28,7 +28,7 @@ const tools = () => {
                     </ul><br/>
                     <p>For new traders, start preparing for the live markets with a free trading simulator featuring real-time market data.</p>
                     {/* <BsArrowDown size="70" color="white"/> */}
-                    <h3><a target="_blank" rel="noreferrer" href="http://ninjatrader.com/LP/VendorDemo/">Get Started for FREE!</a></h3>
+                    <h3 className="ninjatrader-links"><a target="_blank" rel="noreferrer" href="http://ninjatrader.com/LP/VendorDemo/">Get Started for FREE!</a></h3>
                 </div>
                 <div className="tools-card">
                     <img id="kinetick-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="Kinetick"></img>

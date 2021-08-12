@@ -2,7 +2,8 @@ div#tools-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* margin: 40px 80px !important; */
+    /* margin: 0 auto !important; */
+    overflow: hidden;
 }
 
 .tools-card{
@@ -10,7 +11,7 @@ div#tools-container{
     flex-direction: column;
     border: 2px solid rgba(63, 62, 62, 0.651);
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
     align-items: center;
     text-align: left;
@@ -37,12 +38,36 @@ div#tools-container{
     padding: 40px;
 }
 
-/* h3.motivewave-links{
-    padding-top: 130px;
-} */
 
-@media(min-width: 767px){}
+@media(min-width: 1339px){
+    div#tools-container{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .tools-card{
+        margin: 20px auto;
+    }
 
-/* h3.kinetick-links{
-    padding-top: 210px;
-} */
+    h3.motivewave-links{
+        padding-top: 120px;
+    }
+
+    h3.ninjatrader-links{
+        padding-top: 20px;
+    }
+    h3.kinetick-links{
+        padding-top: 20px;
+    }
+}
+
+@media(min-width: 1880px){
+    h3.motivewave-links{
+        padding-top: 130px;
+    }
+    
+    h3.kinetick-links{
+        padding-top: 230px;
+    }
+}

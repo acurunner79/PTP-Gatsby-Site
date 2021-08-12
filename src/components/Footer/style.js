@@ -22,9 +22,10 @@ div#footer-social-media a{
     margin: 10px;
 }
 
-#grid-2 ul li{
+#grid-2 ul li, ul{
     list-style: none;
     position: left;
+    padding: 0;
 }
 
 #grid-3 ul li{
@@ -34,14 +35,15 @@ div#footer-social-media a{
 
 div#footer-main{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 0.5fr);
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(4, 0.3fr);
     margin: 0 auto;
 }
 
 #grid-1{
     grid-area: 1/1/2/3;
-    padding-bottom: 40px;
+    height: 150px;
+    /* padding-bottom: 20px; */
 }
 
 #grid-2{
@@ -55,19 +57,20 @@ div#footer-main{
 
 #grid-4{
     grid-area: 3/1/4/3;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 #grid-5{
     grid-area: 4/1/5/3;
     border-top: 2px solid rgba(63, 62, 62, 0.651);
     padding: 10px 0 10px 0;
+    text-align: left;
 }
 @media(min-width: 767px){
     
     div#footer-main{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 0.5fr 0.5fr 1fr;
         grid-template-rows: repeat(3, 0.5fr);
     }
 
