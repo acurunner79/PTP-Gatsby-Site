@@ -15,11 +15,11 @@ const IndexPage = (props) => {
     <Layout>
       {/* <div id="main-banner">max-width: 1280px<br/>max-height: 334px</div> */}
           <div id="upper-container">
-          <MoveStuffAround />
-            {/* <h1>Welcome to Path Trading Partners</h1> */}
-            <h2>A Path Less Traveled</h2>
-            <p>Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
-            {/* <h3>Sponsored by</h3> */}
+            <MoveStuffAround />
+              {/* <h1>Welcome to Path Trading Partners</h1> */}
+              <h2>A Path Less Traveled</h2>
+              <p>Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
+              {/* <h3>Sponsored by</h3> */}
           </div>
           <div className="slider">
             <Carousel class="rounded">
@@ -78,15 +78,15 @@ const IndexPage = (props) => {
                   <h4>Go here</h4>
                 </Link>
             </div>
-            <div id="lower-container">
-              <h1>Vendors</h1>
-              <div id="vendors-card">
-                <a target="_blank" rel="noreferrer" href="http://ninjatrader.com/LP/VendorDemo/"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="ninjatrader-logo"/></a>
-                <a target="_blank" rel="noreferrer" href="http://kinetick.com/NinjaTrader"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="kinetick-logo"/></a>
-                <a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/></a>
-                <a target="_blank" rel="noreferrer" href="https://www.tradingview.com/gopro/?share_your_love=spekul8r"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628807971/logo-preview_lgceto.png" alt="tradingview-logo"/></a>
-            </div>
-              </div>
+          </div>
+            <h1>Vendors</h1>
+          <div id="lower-container">
+            <div id="vendors-card">
+              <a target="_blank" rel="noreferrer" href="http://ninjatrader.com/LP/VendorDemo/"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="ninjatrader-logo"/></a>
+              <a target="_blank" rel="noreferrer" href="http://kinetick.com/NinjaTrader"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="kinetick-logo"/></a>
+              <a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://www.tradingview.com/gopro/?share_your_love=spekul8r"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628807971/logo-preview_lgceto.png" alt="tradingview-logo"/></a>
+            </div>  
           </div>
     </Layout>
   )

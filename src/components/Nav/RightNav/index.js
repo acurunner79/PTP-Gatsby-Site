@@ -8,7 +8,6 @@ const RightNav = (props) => {
   
     return (     
     <div className="links-container">
-      <h2>Logo here</h2>
         <Link to="/">
           <li className="links">
             Home
