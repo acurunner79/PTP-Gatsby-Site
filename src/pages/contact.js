@@ -56,7 +56,6 @@ const Contact = () => {
                     <h6>7am-4pm CST</h6>
                 </div>
             </div>
-            <MoveStuffAround />
         </Layout>
     )
 }
