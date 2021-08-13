@@ -24,6 +24,11 @@ const RightNav = (props) => {
               Tools
             </li>
         </Link>
+        <Link to="/media">
+            <li className="links" >
+              Media
+            </li>
+        </Link>
         <Link to="/about">
             <li className="links" >
               About Us
