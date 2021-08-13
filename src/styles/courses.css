@@ -1,11 +1,18 @@
-h2 a{
-    color: inherit;
+p{
+    text-align: left;
+}
+
+p.courses-text{
+    padding: 10px;
+    width: 100%;
 }
 
 div#shop-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    margin: 40px 230px !important;
+    margin: 0 auto !important;
+    padding: 10px;
 }
 
 .shop-card{
@@ -14,6 +21,7 @@ div#shop-container{
     border: 2px solid rgba(63, 62, 62, 0.651);
     border-radius: 10px;
     padding: 10px;
+    margin: 10px 10px;
     align-items: center;
 }
 
@@ -21,11 +29,18 @@ div#shop-container{
     margin: 30px;
 }
 
-#motivewave-logo{
-    width: 140px;
-    height: 140px;
+.buttons{
+    margin: 20px auto;
 }
 
-.shop-card:hover{
-    background-color: rgb(156, 147, 147);
-  }
+@media(min-width: 1339px){
+    div#shop-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .shop-card{
+        width: 600px;
+
+    }
+}

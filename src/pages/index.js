@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from '../components/Layout/index'
-import { graphql } from 'gatsby'
+// import PDF from "../components/PDF/PDF"
+import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Carousel } from 'react-bootstrap'
 import MoveStuffAround from '../components/StockTicker'
@@ -42,27 +43,40 @@ const IndexPage = (props) => {
               </Carousel.Item>
             </Carousel>
           </div>
+          {/* <PDF /> */}
             <h1>Find Your Path</h1>
           <div id="mid-container">
             <div className="mid-cont-card">
               <FaDesktop size="70" color="rgb(0, 183, 255)"/>
                 <h3>Trading Courses</h3>
-                <p className="path-text">Trading education that starts with the basics and leaves you with an understanding of complex trading products.</p>
+                <p className="path-text">Trading education that starts with the basics and leaves you with an understanding of complex trading products.</p><br/>
+                <Link to="/courses">
+                  <h4>Go here</h4>
+                </Link>
             </div>
             <div className="mid-cont-card">
               <FaChartLine size="70" color="rgb(0, 183, 255)"/>
                 <h3>Techniques</h3>
-                <p className="path-text">Learn actionable trading strategies. Step by step TOP DOWN analysis that leads you to a yes or no decision on trade selection.</p>
+                <p className="path-text">Learn actionable trading strategies. Step by step TOP DOWN analysis that leads you to a yes or no decision on trade selection.</p><br/>
+                <Link to="/courses">
+                  <h4>Go here</h4>
+                </Link>
             </div>
             <div className="mid-cont-card">
               <FaLaptop size="70" color="rgb(0, 183, 255)"/>
                 <h3>Tools</h3>
-                <p className="path-text">PTP's strategy specific tools that make trading decisions as clear as possible.</p>
+                <p className="path-text">PTP's strategy specific tools that make trading decisions as clear as possible.</p><br/>
+                <Link to="/tools">
+                  <h4 id="tools-link">Go here</h4>
+                </Link>
             </div>
             <div className="mid-cont-card">
               <FaUser size="70" color="rgb(0, 183, 255)"/>
                 <h3>Video & Media</h3>
-                <p className="path-text">Education cannot cover all possible trading scenarios. We offer live Q&A webinars to help you with situation specific questions.</p>
+                <p className="path-text">Education cannot cover all possible trading scenarios. We offer live Q&A webinars to help you with situation specific questions.</p><br/>
+                <Link to="/media">
+                  <h4>Go here</h4>
+                </Link>
             </div>
             <div id="lower-container">
               <h1>Vendors</h1>
