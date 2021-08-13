@@ -49,11 +49,11 @@ const Contact = () => {
                 </div>
                 <div id="contact-info">
                     <h1>Path Trading Partners</h1>
-                    <p>support@pathtradingpartners.com</p>
+                    <h6>support@pathtradingpartners.com</h6>
                     {/* <br/> */}
                     <h1>Hours of Operation</h1>
                     <h3>Monday-Friday</h3>
-                    <p>7am-4pm CST</p>
+                    <h6>7am-4pm CST</h6>
                 </div>
             </div>
             <MoveStuffAround />
