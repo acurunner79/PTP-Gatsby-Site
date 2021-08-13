@@ -14,19 +14,19 @@ const Footer = () => {
                     <h5>Some text in here under the logo thats relevant to the company</h5>
                     <div id="footer-social-media">
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pathtradingpartners">
-                        <FaFacebook size="40" color="rgb(0, 183, 255)"/>
+                        <FaFacebook className="social-media-icons" size="40" color="rgb(0, 183, 255)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://twitter.com/Path_Trading">
-                        <FaTwitter size="40" color="rgb(0, 183, 255)"/>
+                        <FaTwitter className="social-media-icons" size="40" color="rgb(0, 183, 255)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-arnold-61240467/?trk=hp-identity-name">
-                        <FaLinkedin size="40" color="rgb(0, 183, 255)"/>
+                        <FaLinkedin className="social-media-icons" size="40" color="rgb(0, 183, 255)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">
-                        <FaYoutube size="40" color="rgb(0, 183, 255)"/>
+                        <FaYoutube className="social-media-icons" size="40" color="rgb(0, 183, 255)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/pathtradingpartners/">
-                        <FaInstagram size="40" color="rgb(0, 183, 255)"/>
+                        <FaInstagram className="social-media-icons" size="40" color="rgb(0, 183, 255)"/>
                         </a>
                     </div>
                 </div>
@@ -57,7 +57,9 @@ const Footer = () => {
                         <li><a target="_blank" rel="noreferrer" href="https://www.purexposuremediagroup.com/">PureXposure</a></li>
                         <li>Shop Think Tank</li>
                         <li>Our Sponsors</li>
-                        <li>Terms & Conditions</li>
+                        <Link to="/terms">
+                            <li>Terms & Conditions</li>
+                        </Link>
                     </ul>
                 </div>
                 <div id="grid-4">

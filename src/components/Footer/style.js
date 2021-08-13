@@ -96,6 +96,14 @@ div#footer-main{
 }
 
 @media(min-width: 1023px){
+
+    .social-media-icons{
+        transition: top ease 0.5s !important;
+    }
+
+    .social-media-icons:hover{
+        top: -10px !important;
+    }
   
 }
 

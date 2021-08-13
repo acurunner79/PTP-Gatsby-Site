@@ -14,13 +14,12 @@ const IndexPage = (props) => {
     <Layout>
       {/* <div id="main-banner">max-width: 1280px<br/>max-height: 334px</div> */}
           <div id="upper-container">
-            <h1>Welcome to Path Trading Partners</h1>
-            <br/>
+          <MoveStuffAround />
+            {/* <h1>Welcome to Path Trading Partners</h1> */}
             <h2>A Path Less Traveled</h2>
             <p>Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
             {/* <h3>Sponsored by</h3> */}
           </div>
-          {/* <MoveStuffAround /> */}
           <div className="slider">
             <Carousel class="rounded">
               <Carousel.Item>
@@ -43,51 +42,35 @@ const IndexPage = (props) => {
               </Carousel.Item>
             </Carousel>
           </div>
-          {/* <div className="headshot-container">
-            <div className="headshot-card">
-              <div className="img">Headshot<br/>500px x 500px</div>
-              <img className="image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190051/bob-i_qjkyxl.jpg" alt="bob"/>
-              <h2>Bob Iaccino</h2>
-              <p>Chief Market Strategist</p>
-              <FaTwitter className="twitter-icon" size="40" color="rgb(0, 183, 255)"/>
-            </div>
-            <div className="headshot-card">
-            <div className="img">Headshot<br/>500px x 500px</div>
-              <img className="image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190633/MIKE-A1_m6idie.jpg" alt="bob"/>
-              <h2>Mike Arnold</h2>
-              <p>Head of Trading Systems</p>
-              <FaTwitter className="twitter-icon" size="40" color="rgb(0, 183, 255)"/>
-            </div>
-          </div> */}
             <h1>Find Your Path</h1>
           <div id="mid-container">
             <div className="mid-cont-card">
               <FaDesktop size="70" color="rgb(0, 183, 255)"/>
-                <h2>Trading Courses</h2>
+                <h3>Trading Courses</h3>
                 <p className="path-text">Trading education that starts with the basics and leaves you with an understanding of complex trading products.</p>
             </div>
             <div className="mid-cont-card">
               <FaChartLine size="70" color="rgb(0, 183, 255)"/>
-                <h2>Strategies</h2>
+                <h3>Techniques</h3>
                 <p className="path-text">Learn actionable trading strategies. Step by step TOP DOWN analysis that leads you to a yes or no decision on trade selection.</p>
             </div>
             <div className="mid-cont-card">
               <FaLaptop size="70" color="rgb(0, 183, 255)"/>
-                <h2>Tools</h2>
+                <h3>Tools</h3>
                 <p className="path-text">PTP's strategy specific tools that make trading decisions as clear as possible.</p>
             </div>
             <div className="mid-cont-card">
               <FaUser size="70" color="rgb(0, 183, 255)"/>
-                <h2>Mentoring</h2>
+                <h3>Video & Media</h3>
                 <p className="path-text">Education cannot cover all possible trading scenarios. We offer live Q&A webinars to help you with situation specific questions.</p>
             </div>
             <div id="lower-container">
-              <h2>Vendors</h2>
+              <h1>Vendors</h1>
               <div id="vendors-card">
                 <a target="_blank" rel="noreferrer" href="http://ninjatrader.com/LP/VendorDemo/"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="ninjatrader-logo"/></a>
                 <a target="_blank" rel="noreferrer" href="http://kinetick.com/NinjaTrader"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="kinetick-logo"/></a>
-                <a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png"/></a>
-                <a target="_blank" rel="noreferrer" href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHpUNzdkbGVBZUdIYlFGeTV3ejJxRHotZFlkd3xBQ3Jtc0tsVFNMV25TUmk4R1B6TXU0dmFTVm1NMVlTYXp3R3FkOWpxSXV4cm01T182a1I5dTJkYUdROUxPemJIQnpTNW90dW0wb01lZDNONmhwdWI5SUVyZDYwcFNOMWhMQXAwMXVQS3B4OGFPaWFNcWVXQUhGVQ&q=https%3A%2F%2Fwww.tradingview.com%2Fgopro%2F%3Fshare_your_love%3Dspekul8r"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628807971/logo-preview_lgceto.png" alt="motivewave-logo"/></a>
+                <a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/></a>
+                <a target="_blank" rel="noreferrer" href="https://www.tradingview.com/gopro/?share_your_love=spekul8r"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628807971/logo-preview_lgceto.png" alt="tradingview-logo"/></a>
             </div>
               </div>
           </div>

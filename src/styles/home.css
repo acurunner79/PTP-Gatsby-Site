@@ -29,9 +29,11 @@ div.mid-cont-card{
   padding: 20px 20px;
   width: 300px;
   height: 300px;
+  transition: transform .2s;
 }
 div.mid-cont-card:hover{
-  background-color: rgb(156, 147, 147);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 
@@ -50,9 +52,11 @@ div.mid-cont-card:hover{
 #lower-container{
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px !important;
 }
 
 #vendors-card{
+  background-color: rgba(63, 62, 62, 0.651);
   border: 2px solid rgba(63, 62, 62, 0.651);
   border-radius: 8px;
   margin: 0 auto;
@@ -61,7 +65,7 @@ div.mid-cont-card:hover{
 img.vendors-image{
   width: 350px;
   padding: 40px 20px;
-
+  
 }
 
 @media(min-width: 424px){
@@ -99,10 +103,6 @@ img.vendors-image{
 
   .carousel-control-next, .carousel-control-prev{
     display: center !important;
-  }
-
-  .carousel-indicators{
-    
   }
 
   div#main-banner{
@@ -157,9 +157,13 @@ img.vendors-image{
     padding: 0 !important;
   }
 
-  /* img.vendors-image{
-    padding: 0 !important;
-  } */
+  .vendors-image{
+    transition: transform .2s;
+  }
+
+  .vendors-image:hover{
+    transform: scale(1.1);
+  }
 }
 
 @media(min-width: 1339px){

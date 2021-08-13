@@ -4,24 +4,20 @@ import '../../styles/global.css'
  
 const MoveStuffAround = () => (
     <div id="stock-ticker-container">
-        <Ticker speed={10}>
+        <Ticker className="ticker-main" speed={10}>
             {({ index }) => (
                 <>
-                    <h1 className="headline">  Welcome to Path Trading Partners...<br/> A Path Less Traveled... </h1>
-                    {/* <h1 className="headline">  Welcome to Path Trading Partners...<br/> A path less traveled... </h1> */}
-                    {/* <img src="www.my-image-source.com/" alt=""/> */}
+                    <h1 className="headline">___Welcome to Path Trading Partners___</h1>
                 </>
             )}
         </Ticker>
-        <Ticker speed={20}>
+        {/* <Ticker speed={20}>
         {({ index }) => (
             <>
-                <h1 className="headline">  Welcome to Path Trading Partners...<br/> A Path Less Traveled... </h1>
-                {/* <h1 className="headline">  Welcome to Path Trading Partners...<br/> A path less traveled... </h1> */}
-                {/* <img src="www.my-image-source.com/" alt=""/> */}
+                <h1 className="headline">  A Path Less Traveled... </h1>
             </>
         )}
-        </Ticker>
+        </Ticker> */}
 </div>
 )
  
