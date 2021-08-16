@@ -22,5 +22,7 @@ h1.headline{
 }
 
 @media(min-width: 767px){
-  
+  h1.headline{
+    font-size: 45px;
+  }
 }
