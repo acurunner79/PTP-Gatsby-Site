@@ -8,6 +8,7 @@ p{
 
 h4{
   transition: transform .2s;
+  
 }
 
 h4:hover{
@@ -26,6 +27,25 @@ h4#tools-link{
   /* background-color: rgba(128, 128, 128, 0.678); */
   padding: 20px 20px;
   margin: 80px 20px;
+}
+
+#pdf-container{
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto !important;
+}
+
+/* canvas.react-pdf__Page__canvas{
+  width: 375px !important;
+  height: 485px !important;
+} */
+
+#pdf-image{
+  width: 375px;
+  height: 485px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #mid-container{
@@ -110,7 +130,6 @@ img.vendors-image{
   div.slider{
     display: block;
     margin: 40px auto;
-    width: 1280px;
   }
 
   .carousel-control-next, .carousel-control-prev{
@@ -148,6 +167,28 @@ img.vendors-image{
     justify-content: center;
   }
 
+  #pdf-container{
+    flex-direction: row;
+    width: 950px;
+    margin: 40px auto !important;
+    justify-content: space-around;
+  }
+
+  div#stock-think-tank-card{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    width: 500px;
+  }
+
+  #pdf-image{
+    margin: 0 20px;
+  }
+
+  p.stockthink-para{
+    width: 500px;
+  }
+
   .headshot-container{
     display: flex;
     justify-content: space-evenly;
@@ -183,4 +224,21 @@ img.vendors-image{
   div#main-banner{
     width: 1280px !important;
   }
+
+  div.slider{
+    width: 1280px;
+  }
+
+  #pdf-image{
+    width: 500px !important;
+    height: 647px !important;
+  }
+
+  #pdf-container{
+    width: 1280px;
+  }
+}
+
+@media(min-width: 1779px){
+
 }
