@@ -3,8 +3,10 @@
 } */
 
 #contact-card{
-    background-color: gray;
-    border-radius: 4px;
+    /* background-color: black; */
+    align-items: center;
+    border: 2px solid rgba(63, 62, 62, 0.651);
+    border-radius: 8px;
     padding: 10px;
     margin: 10px 10px 10px 10px;
 }
@@ -13,11 +15,13 @@
     /* display: block; */
     padding:10px 0 20px 0 !important;
     text-align: left;
+    color: white;
 }
 
 .form-input{
     border: transparent;
-    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 8px;
     width: 270px;
     height: 40px;
 }
@@ -25,7 +29,7 @@
 #message{
     width: 270px;
     height: 80px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 #form-submit{
@@ -33,7 +37,7 @@
     width: 300px;
     margin: 30px 0px 10px 0px;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
     color: rgb(2, 94, 32);
     font-size: 20px;
     font-weight: 600;

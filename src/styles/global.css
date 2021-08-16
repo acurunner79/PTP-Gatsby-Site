@@ -4,10 +4,10 @@
 } 
 
 div#stock-ticker-container{
-  /* background-color: rgb(24, 22, 22) !important; */
-  /* border: 2px solid rgba(63, 62, 62, 0.651);
-  border-radius: 8px; */
-  max-width: 550px;
+  background-color: rgba(0, 0, 0, 0.308) !important;
+  /* border: 2px solid rgba(63, 62, 62, 0.651); */
+  border-radius: 8px;
+  max-width: 750px;
   padding: 0 10px;
   margin: 0 auto;
 
@@ -18,7 +18,7 @@ h1.headline{
   color: green !important;
   font-size: 25px !important;
   white-space: nowrap;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 @media(min-width: 767px){

@@ -12,6 +12,13 @@ h5{
     color: white;
     padding: 6px 0;
 }
+
+img#footer-logo{
+    width: 170px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
 #grid-1, #grid-2, #grid-3, #grid-4, #grid-5{
   margin: 0 auto;
   align-items: left;
@@ -20,6 +27,7 @@ h5{
 div#footer-social-media a{
     padding-right: 10px;
     margin: 10px;
+    align-items: center !important;
 }
 
 #grid-2 ul li, ul{
@@ -43,7 +51,9 @@ div#footer-main{
 #grid-1{
     grid-area: 1/1/2/3;
     height: 150px;
-    /* padding-bottom: 20px; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 #grid-2{
@@ -73,7 +83,7 @@ div#footer-main{
     div#footer-main{
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 1fr;
-        grid-template-rows: repeat(3, 0.5fr);
+        grid-template-rows: repeat(3, 0.7fr);
     }
 
     #grid-1{
