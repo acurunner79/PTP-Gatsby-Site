@@ -1,6 +1,5 @@
 import * as React from "react"
 import Layout from '../components/Layout/index'
-import PDF from "../components/PDF/PDF"
 import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Carousel } from 'react-bootstrap'
