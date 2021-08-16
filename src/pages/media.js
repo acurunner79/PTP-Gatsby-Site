@@ -1,8 +1,11 @@
 import React from 'react'
+import axios from 'axios'
 import Layout from '../components/Layout'
 import '../styles/media.css'
 
 const Media = () => {
+
+    
     return (
         <Layout>
             <h1>Media Layout</h1>

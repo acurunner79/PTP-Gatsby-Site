@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.13.2",
     "bootstrap": "^5.0.2",
     "font-face": "^2.3.4",
