@@ -2,6 +2,11 @@
   display: none;
 }
 
+a{
+  color: inherit;
+  font-weight: inherit;
+}
+
 p{
   font-size: 15px;
   text-indent: 0.8rem;
@@ -22,8 +27,16 @@ div.slider{
 }
 
 h4#tools-link{
+  color: rgb(0, 175, 250) !important;
   padding-top: 20px !important;
+  font-weight: 500;
+  list-style: none !important;
+  /* filter: brightness(120%) */
 }
+
+/* #tools-link{
+  font-weight: 600 !important;
+} */
 
 #upper-container{
   /* background-color: rgba(128, 128, 128, 0.678); */
@@ -37,39 +50,48 @@ h4#tools-link{
   margin: 40px auto !important;
 }
 
-/* canvas.react-pdf__Page__canvas{
-  width: 375px !important;
-  height: 485px !important;
-} */
-
 #pdf-image{
-  width: 375px;
-  height: 485px;
-  margin: 0 auto;
+  width: 360px;
+  height: 466px;
+  justify-content: space-evenly;
   border-radius: 8px;
   overflow: hidden;
+  margin: 0 auto;
+}
+
+#stock-think-tank-card{
+  margin-top: 20px;
 }
 
 #mid-container{
   display: flex;
   flex-direction: column;
-  margin: 0 auto !important;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto !important;
 }
 
 div.mid-cont-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   border: 2px solid rgba(63, 62, 62, 0.651) !important;
   border-radius: 8px;
-  margin: 40px;
-  padding: 20px 20px;
+  margin: 10px auto;
+  padding-top: 8px;
   width: 300px;
   height: 300px;
   transition: transform .2s;
 }
 div.mid-cont-card:hover{
   transform: scale(1.1);
-  box-shadow: 2px 2px 2px 2px grey;
+  box-shadow: 2px 2px 15px rgba(98, 98, 98, 0.329);
 }
 
+p.path-text{
+  text-align: center;
+}
 
 #bob-main{
   height: 370px;
@@ -93,6 +115,7 @@ div.mid-cont-card:hover{
   background-color: rgba(63, 62, 62, 0.651);
   border: 2px solid rgba(63, 62, 62, 0.651);
   border-radius: 8px;
+  width: 95vw;
   margin: 0 auto;
 }
 
@@ -119,9 +142,9 @@ img.vendors-image{
   p.path-text{
     width: 275px;
     /* height: 250px; */
-    padding-top: 15px;
+    /* padding-top: 15px; */
     /* margin: 10px; */
-    text-align: left;
+    /* text-align: left; */
   }
 
   .carousel-image{
@@ -238,6 +261,19 @@ img.vendors-image{
 
   #pdf-container{
     width: 1280px;
+  }
+
+  #mid-container{
+    width: 75vw;
+  }
+
+  #lower-container{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
   }
 }
 

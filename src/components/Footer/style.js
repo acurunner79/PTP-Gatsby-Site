@@ -63,8 +63,10 @@ div#footer-main{
 #grid-5{
     grid-area: 4/1/5/3;
     border-top: 2px solid rgba(63, 62, 62, 0.651);
-    padding: 10px 0 10px 0;
     text-align: left;
+    width: 100%;
+    place-items: center;
+    padding: 20px;
 }
 @media(min-width: 767px){
     
@@ -104,6 +106,10 @@ div#footer-main{
     .social-media-icons:hover{
         top: -10px !important;
     }
+
+    #grid-4{
+        text-align: left !important;
+    }
   
 }
 
@@ -120,6 +126,7 @@ div#footer-main{
 
     #grid-1{
         grid-area: 1/1/2/2;
+        padding-left: 20px;
     }
 
     #grid-2{

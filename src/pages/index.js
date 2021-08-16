@@ -49,7 +49,7 @@ const IndexPage = (props) => {
               <h3>New Stocks and Special Plays - “Bob's Monthly Newsletter”</h3><br/>
               <p className="stockthink-para">Bob and Mike launched The Stock Think Tank to help investors learn how to properly balance risk and reward in their personal stock portfolios.</p><br/>
               <p className="stockthink-para">8 page monthly newsletter giving traders and investors a “deep dive” into Bob’s favorite opportunities for the month. These timely and insightful recommendations will tell you all about the opportunities and why Bob recommends them.</p><br/>
-              <h4><a target="_blank" rel="noreferrer" href="https://alternativedaily.s3.amazonaws.com/StockThinkTank/Newsletters/STT_newsletter_vol002issue007.pdf">Read full article</a></h4>
+              <h4 id="tools-link"><a target="_blank" rel="noreferrer" href="https://alternativedaily.s3.amazonaws.com/StockThinkTank/Newsletters/STT_newsletter_vol002issue007.pdf">Read full article</a></h4>
             </div>
           </div>
             <h1>Find Your Path</h1>
@@ -59,7 +59,7 @@ const IndexPage = (props) => {
                 <h3>Trading Courses</h3>
                 <p className="path-text">Trading education that starts with the basics and leaves you with an understanding of complex trading products.</p><br/>
                 <Link to="/courses">
-                  <h4>Go here</h4>
+                  <h4 id="tools-link">Go here</h4>
                 </Link>
             </div>
             <div className="mid-cont-card">
