@@ -14,9 +14,9 @@ h5{
 }
 
 img#footer-logo{
-    width: 170px;
+    width: 250px;
     margin: 0 auto;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 #grid-1, #grid-2, #grid-3, #grid-4, #grid-5{
@@ -114,7 +114,8 @@ div#footer-main{
     }
 
     .social-media-icons:hover{
-        top: -10px !important;
+        transform: scale(1.3);
+        color: rgb(194, 225, 20);
     }
 
     #grid-4{
@@ -123,20 +124,28 @@ div#footer-main{
   
 }
 
-@media(min-width: 1339px){
+@media(min-width: 1439px){
     div#footer-main{
         width: 1440px;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 0.5fr);
+        grid-template-rows: repeat(2, 0.85fr);
     }
 
+    img#footer-logo{
+        padding-top: -30px;
+    }
+
+    div#footer-social-media{
+    }
+    
     #grid-1, #grid-2, #grid-3, #grid-4, #grid-5{
         text-align: left;
-}
-
+    }
+    
     #grid-1{
         grid-area: 1/1/2/2;
         padding-left: 20px;
+        /* margin-bottom: 60px; */
     }
 
     #grid-2{

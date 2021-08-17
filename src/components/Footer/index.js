@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { FooterWrapper } from './style'
 import {FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaInstagram} from 'react-icons/fa'
 import { AiOutlineMail, AiOutlineFieldTime } from 'react-icons/ai'
-import PTPSmall from '../../images/PathTrading Partners_F_SM.png'
+import PTPSmall from '../../images/PathTrading Partners_Final Logo[vector] (1).png'
 
 
 const Footer = () => {
@@ -16,19 +16,19 @@ const Footer = () => {
                     {/* <h5>Some text in here under the logo thats relevant to the company</h5> */}
                     <div id="footer-social-media">
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pathtradingpartners">
-                        <FaFacebook className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
+                        <FaFacebook className="social-media-icons" size="35" color="#D3D3D3"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://twitter.com/Path_Trading">
-                        <FaTwitter className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
+                        <FaTwitter className="social-media-icons" size="35" color="#D3D3D3"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-arnold-61240467/?trk=hp-identity-name">
-                        <FaLinkedin className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
+                        <FaLinkedin className="social-media-icons" size="35" color="#D3D3D3"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">
-                        <FaYoutube className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
+                        <FaYoutube className="social-media-icons" size="35" color="#D3D3D3"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/pathtradingpartners/">
-                        <FaInstagram className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
+                        <FaInstagram className="social-media-icons" size="35" color="#D3D3D3"/>
                         </a>
                     </div>
                 </div>
@@ -43,6 +43,9 @@ const Footer = () => {
                         </Link>
                         <Link to="/tools">
                             <li>Tools</li>
+                        </Link>
+                        <Link to="/media">
+                            <li>Media</li>
                         </Link>
                         <Link to="/about">
                             <li>About us</li>

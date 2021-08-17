@@ -6,7 +6,7 @@ import '../styles/tools.css'
 const tools = () => {
     return (
         <Layout>
-            <h1>Tools</h1>
+            <h3 id="tools-header">Tools</h3>
             <div id="tools-container">
                 <div className="tools-card">
                     <img id="motivewave-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1628536007/logo_250x250_2_bykyty.png" alt="Motive Wave"></img>

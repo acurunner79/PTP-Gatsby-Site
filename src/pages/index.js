@@ -46,14 +46,14 @@ const IndexPage = (props) => {
           <h3 className="home-headers">New Stocks and Special Plays - “Bob's Monthly Newsletter”</h3><br/>
           <p className="stockthink-para">Bob and Mike launched The Stock Think Tank to help investors learn how to properly balance risk and reward in their personal stock portfolios.</p><br/>
           <p className="stockthink-para">8 page monthly newsletter giving traders and investors a “deep dive” into Bob’s favorite opportunities for the month. These timely and insightful recommendations will tell you all about the opportunities and why Bob recommends them.</p><br/>
-          <h4 id="tools-link"><a target="_blank" rel="noreferrer" href="https://alternativedaily.s3.amazonaws.com/StockThinkTank/Newsletters/STT_newsletter_vol002issue007.pdf">Read full article</a></h4>
+          <h4 id="pdf-link"><a target="_blank" rel="noreferrer" href="https://alternativedaily.s3.amazonaws.com/StockThinkTank/Newsletters/STT_newsletter_vol002issue007.pdf">Read full article</a></h4>
         </div>
       </div>
         <h3 className="home-headers">Find Your Path</h3>
       <div id="mid-container">
         <Link to="/courses">
           <div className="mid-cont-card">
-            <FaDesktop size="70" color="rgb(17, 8, 65)"/>
+            <FaDesktop size="70" color="rgb(194, 225, 20)"/>
               <h3>Trading Courses</h3>
               <p className="path-text">Trading education that starts with the basics and leaves you with an understanding of complex trading products.</p><br/>
                 <h4 id="tools-link">Go here</h4>
@@ -61,7 +61,7 @@ const IndexPage = (props) => {
         </Link>
         <Link to="/courses">
           <div className="mid-cont-card">
-            <FaChartLine size="70" color="rgb(17, 8, 65)"/>
+            <FaChartLine size="70" color="rgb(194, 225, 20)"/>
             <h3>Techniques</h3>
             <p className="path-text">Learn actionable trading strategies. Step by step TOP DOWN analysis that leads you to a yes or no decision on trade selection.</p>
             <h4 id="tools-link">Go here</h4>
@@ -69,7 +69,7 @@ const IndexPage = (props) => {
         </Link>
         <Link to="/tools">
           <div className="mid-cont-card">
-            <FaLaptop size="70" color="rgb(17, 8, 65)"/>
+            <FaLaptop size="70" color="rgb(194, 225, 20)"/>
             <h3>Tools</h3>
             <p className="path-text">PTP's strategy specific tools that make trading decisions as clear as possible.</p><br/>
             <h4 id="tools-link">Go here</h4>
@@ -77,7 +77,7 @@ const IndexPage = (props) => {
         </Link>
         <Link to="/media">
           <div className="mid-cont-card">
-            <FaUser size="70" color="rgb(17, 8, 65)"/>
+            <FaUser size="70" color="rgb(194, 225, 20)"/>
             <h3>Video & Media</h3>
             <p className="path-text">Education cannot cover all possible trading scenarios. We offer live Q&A webinars to help you with situation specific questions.</p>
             <h4 id="tools-link">Go here</h4>

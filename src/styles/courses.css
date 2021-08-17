@@ -7,6 +7,12 @@ p.courses-text{
     width: 100%;
 }
 
+h3.courses-headers{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 70px 0 30px 0;
+}
+
 div#shop-container{
     display: flex;
     flex-direction: column;
@@ -18,7 +24,7 @@ div#shop-container{
 .shop-card{
     display: flex;
     flex-direction: column;
-    border: 2px solid rgba(63, 62, 62, 0.651);
+    border: 2px solid rgb(131, 131, 131);
     border-radius: 10px;
     padding: 10px;
     margin: 10px 10px;
@@ -33,7 +39,17 @@ div#shop-container{
     margin: 20px auto;
 }
 
+@media(min-width: 767px){
+    h3.courses-headers{
+        font-size: 45px;
+    }
+}
+
 @media(min-width: 1339px){
+    h3.courses-headers{
+        font-size: 55px;
+    }
+
     div#shop-container{
         flex-direction: row;
         flex-wrap: wrap;
