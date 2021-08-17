@@ -35,8 +35,7 @@ div.navlogo {
 }
 
 div.links-container li.links {
-  /* -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black; */
+  color: #C2E114;
   font-size: 14px;
   padding-top: 20px;
 }
@@ -46,7 +45,7 @@ div.links-container li.links {
   text-decoration: none !important;
   flex-direction: column;
   justify-content: center;
-  height: 250px;
+  height: 150px;
   margin: auto 0;
   align-items: flex-start;
 }
@@ -69,6 +68,7 @@ div.links-container li.links {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 100px;
     width: 100%;
     text-decoration: none !important;
     padding: 0 40px;
@@ -76,6 +76,7 @@ div.links-container li.links {
 
   div.links-container{
     padding: 10px 0 0 0;
+    background-color: rgb(29, 28, 28);
   }
   
   div.links-container li.links{

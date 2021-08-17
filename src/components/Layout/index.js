@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
 body {
   height: 100%;
   text-align: center;
-  background-image: linear-gradient(180deg, #20222b, transparent),url('https://res.cloudinary.com/acurunner79/image/upload/v1624855170/5f827abe96c870c79155bf5c_Hero_20-_20Stocks_c0cij3.png');
+  background-image: linear-gradient(180deg, #6E6969, transparent),url('https://res.cloudinary.com/acurunner79/image/upload/v1624855170/5f827abe96c870c79155bf5c_Hero_20-_20Stocks_c0cij3.png');
   background-color: rgb(39,38,38);
   background-repeat: no-repeat;
   background-size: 100% !important;

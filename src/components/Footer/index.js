@@ -16,19 +16,19 @@ const Footer = () => {
                     {/* <h5>Some text in here under the logo thats relevant to the company</h5> */}
                     <div id="footer-social-media">
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pathtradingpartners">
-                        <FaFacebook className="social-media-icons" size="35" color="rgb(0, 183, 255)"/>
+                        <FaFacebook className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://twitter.com/Path_Trading">
-                        <FaTwitter className="social-media-icons" size="35" color="rgb(0, 183, 255)"/>
+                        <FaTwitter className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-arnold-61240467/?trk=hp-identity-name">
-                        <FaLinkedin className="social-media-icons" size="35" color="rgb(0, 183, 255)"/>
+                        <FaLinkedin className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">
-                        <FaYoutube className="social-media-icons" size="35" color="rgb(0, 183, 255)"/>
+                        <FaYoutube className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/pathtradingpartners/">
-                        <FaInstagram className="social-media-icons" size="35" color="rgb(0, 183, 255)"/>
+                        <FaInstagram className="social-media-icons" size="35" color="rgb(17, 8, 65)"/>
                         </a>
                     </div>
                 </div>
