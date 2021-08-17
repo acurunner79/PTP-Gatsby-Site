@@ -16,7 +16,7 @@ p{
 h3.home-headers{
   font-size: 25px;
   font-weight: 600;
-  margin: 40px 3px;
+  margin: 40px 3px 0 3px;
 }
 
 h4#pdf-link, a{
@@ -120,7 +120,7 @@ p.path-text{
   border: 2px solid rgb(131, 131, 131);
   border-radius: 8px;
   width: 95vw;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 img.vendors-image{
@@ -169,17 +169,6 @@ img.vendors-image{
     display: center !important;
   }
 
-  div#main-banner{
-    display: block;
-    /* padding-top: 100px; */
-    margin: 0 auto;
-    height: 334px !important;
-    width: 768px !important;
-    border: 2px solid black;
-    background-color: blue;
-    font-size: 50px;
-  }
-
   #mid-container{
     flex-direction: row;
     flex-wrap: wrap;
@@ -203,8 +192,9 @@ img.vendors-image{
   
   #pdf-container{
     flex-direction: row;
-    width: 950px;
-    margin: 40px auto !important;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto !important;
     justify-content: space-around;
     align-items: center !important;
   }
@@ -212,8 +202,7 @@ img.vendors-image{
   div#stock-think-tank-card{
     display: flex;
     flex-direction: column;
-    padding: 100px 0;
-    width: 500px;
+    width: 50vw;
   }
   
   #pdf-image{
@@ -273,7 +262,8 @@ img.vendors-image{
   }
 
   #pdf-container{
-    width: 1280px;
+    width: 90vw;
+    margin: 80px auto !important;
   }
 
   #mid-container{
@@ -292,6 +282,9 @@ img.vendors-image{
 }
 
 @media(min-width: 1779px){
+  #pdf-container{
+    width: 75vw;
+  }
   #mid-container{
     justify-content: center;
   }
@@ -302,5 +295,15 @@ img.vendors-image{
 
   #lower-container{
     width: 75vw;
+  }
+}
+
+@media(min-width: 2559px){
+  #pdf-container{
+    width: 60vw;
+    margin: 90px auto !important;
+  }
+  div#stock-think-tank-card{
+    width: 30vw;
   }
 }
