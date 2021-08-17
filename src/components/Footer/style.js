@@ -110,7 +110,7 @@ div#footer-main{
 @media(min-width: 1023px){
 
     .social-media-icons{
-        transition: top ease 0.5s !important;
+        transition: transform .4s;
     }
 
     .social-media-icons:hover{
@@ -136,6 +136,7 @@ div#footer-main{
     }
 
     div#footer-social-media{
+        margin-bottom: 20px !important;
     }
     
     #grid-1, #grid-2, #grid-3, #grid-4, #grid-5{
