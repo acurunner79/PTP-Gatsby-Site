@@ -38,15 +38,14 @@ ol, ul, li{
 }
 `
 
-
 const Layout = ({ children }) => {
 
   return (
       <div>
-            <GlobalStyle />
-            <Nav />
-                <section>{children}</section> 
-            <Footer />
+        <GlobalStyle />
+        <Nav />
+            <section>{children}</section> 
+        <Footer />
       </div>
   );
 };

@@ -4,19 +4,20 @@
     display: flex;
     flex-flow: row nowrap;
     flex-flow: column nowrap;
-    width: 55%;
+    width: 60%;
     height: 100%;
     position: fixed;
     top: 0;
     right: -460px;
     transition: all 0.5s ease-in-out;
     z-index: 50;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #navlogo{
     width: 30vw;
     padding-bottom: 60px;
+    margin: 0 70px;
 }
 
 .outside {
@@ -55,7 +56,8 @@ div.right-nav.open {
 
 @media (min-width: 768px) {
     .right-nav {
-        width: 100%;
+        /* width: 100%; */
+        right: -500;
     }
 
     img#navlogo{

@@ -36,7 +36,7 @@ div.navlogo {
 
 div.links-container li.links {
   color: #C2E114;
-  font-size: 14px;
+  font-size: 20px;
   padding-top: 20px;
 }
 
@@ -47,7 +47,8 @@ div.links-container li.links {
   justify-content: center;
   height: 150px;
   margin: auto 0;
-  align-items: flex-start;
+  /* align-items: flex-end; */
+  text-align: left !important;
 }
 
 .links-container li {

@@ -10,9 +10,6 @@ const Nav = () => {
     return ( 
         <div className="_nav">
            <Link to="/">
-               {/* <div className="navlogo">
-                     NavLogo<br/>width: 232px<br/>height: 50px
-               </div> */}
               {/* <img className="navlogo" src={PTPWatermarkLogo} alt=""></img> */}
            </Link>
            <div className="menu-bar">

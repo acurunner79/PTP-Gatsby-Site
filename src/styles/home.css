@@ -21,7 +21,6 @@ h3.home-headers{
 
 h4{
   transition: transform .2s;
-  
 }
 
 /* h4:hover{
@@ -78,7 +77,7 @@ div.mid-cont-card{
   align-items: center;
   border: 2px solid rgb(131, 131, 131) !important;
   border-radius: 8px;
-  margin: 10px auto;
+  margin: 10px 10px;
   padding-top: 8px;
   width: 300px;
   height: 300px;
@@ -145,6 +144,10 @@ img.vendors-image{
     /* padding-top: 15px; */
     /* margin: 10px; */
     /* text-align: left; */
+  }
+
+  h3.home-headers{
+    font-size: 45px;
   }
 
   .carousel-image{
@@ -265,7 +268,7 @@ img.vendors-image{
   }
 
   #mid-container{
-    width: 57vw;
+    /* width: 57vw; */
     justify-content: space-around;
   }
 
@@ -280,5 +283,11 @@ img.vendors-image{
 }
 
 @media(min-width: 1779px){
-
+  #mid-container{
+    justify-content: center;
+  }
+  
+  div#mid-container-card{
+    justify-content: space-evenly;
+  }
 }

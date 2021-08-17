@@ -1,10 +1,8 @@
 div.hamburger {
     padding-top: 40px;
-    position: absolute;
-    /* bottom: 35px; */
+    position: fixed;
     right: 45px;
     width: 2rem;
-    /* height: 3rem; */
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
@@ -14,8 +12,6 @@ div.hamburger {
     
     width: 2.5rem;
     height: 0.22rem;
-    /* background-color: #32bacce5;  */
-    /* border-radius: 2px; */
     transform-origin: 1px;
     transition: all 0.3s ease-in-out; 
     padding: 2px 0 2px 0;
@@ -26,8 +22,6 @@ div.hamburger {
    
     width: 2.5rem;
     height: 0.22rem;
-    /* background-color: #32bacce5;  */
-    /* border-radius: 2px; */
     transform-origin: 1px;
     transition: all 0.3s ease-in-out; 
     padding: 2px 0 2px 0;
@@ -37,8 +31,6 @@ div.hamburger {
  #three { 
     width: 2.5rem;
     height: 0.22rem;
-    /* background-color: #32bacce5;  */
-    /* border-radius: 2px; */
     transform-origin: 1px;
     transition: all 0.3s ease-in-out;
     padding: 2px 0 2px 0;
