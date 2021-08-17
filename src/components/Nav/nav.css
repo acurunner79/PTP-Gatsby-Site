@@ -68,20 +68,20 @@ div.links-container li.links {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 160px;
     width: 100%;
     text-decoration: none !important;
     padding: 0 40px;
   }
 
   div.links-container{
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
     background-color: rgb(29, 28, 28);
   }
   
   div.links-container li.links{
     font-size: 12px;
-    padding-top: 0;
+    padding-top: 10px;
   }
 }
 
@@ -102,9 +102,10 @@ div.links-container li.links {
 @media(min-width: 2559px){
   div.links-container{
     margin-top: 30px !important;
+    height: 160px;
   }
   div.links-container li.links {
     font-size: 30px;
-    padding-top: 30px;
+    padding-top: 25px;
   }
 }
