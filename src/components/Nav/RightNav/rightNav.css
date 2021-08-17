@@ -95,6 +95,13 @@ div.right-nav.open {
     }
 }
 
+@media(min-width: 1879px){
+    img#navlogo{
+        width: 4vw;
+        padding-top: 80px;
+    }
+}
+
 @media(min-width: 2559px){
     .right-nav{
         width: 0;
