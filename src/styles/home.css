@@ -290,4 +290,8 @@ img.vendors-image{
   div#mid-container-card{
     justify-content: space-evenly;
   }
+
+  #lower-container{
+    width: 75vw;
+  }
 }
