@@ -54,7 +54,6 @@ const Contact = () => {
                     <br/>
                     <h3 className="contact-headers">Hours of Operation</h3>
                     <h5><AiOutlineFieldTime color="white" size="30"/> Monday-Friday 7am-4pm CST</h5>
-                    <h5></h5>
                 </div>
             </div>
         </Layout>

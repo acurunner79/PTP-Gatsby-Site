@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import { Carousel } from 'react-bootstrap'
 import MoveStuffAround from '../components/StockTicker'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaTwitter, FaDesktop, FaChartLine, FaLaptop, FaUser } from 'react-icons/fa'
+import { FaDesktop, FaChartLine, FaLaptop, FaUser } from 'react-icons/fa'
 import '../styles/home.css'
 
 
@@ -41,7 +41,7 @@ const IndexPage = (props) => {
       </div>
         <h3 className="home-headers">Stock Think Tank</h3><br/>
       <div id="pdf-container">
-        <img id="pdf-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1629129945/STT_newsletter_vol002issue007-1_td3p6w.png" alt="pdf-image"/>
+        <img id="pdf" src="https://res.cloudinary.com/acurunner79/image/upload/v1629129945/STT_newsletter_vol002issue007-1_td3p6w.png" alt="pdf-bob"/>
         <div id="stock-think-tank-card">
           <h3 className="home-headers">New Stocks and Special Plays - “Bob's Monthly Newsletter”</h3><br/>
           <p className="stockthink-para">Bob and Mike launched The Stock Think Tank to help investors learn how to properly balance risk and reward in their personal stock portfolios.</p><br/>

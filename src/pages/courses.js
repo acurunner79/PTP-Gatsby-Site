@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout  from '../components/Layout'
-import { BsArrowDown } from "react-icons/bs"
 import { FaDesktop } from "react-icons/fa"
 import '../styles/courses.css'
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import PTPNavLogo from '../../../images/PathTradingPartner_LogoMarkOnly.png'
-import PTPHorizontalLogo from '../../../images/pathtradingpartners_horizontal.png'
 import './rightNav.css'
 
 

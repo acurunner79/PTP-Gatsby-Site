@@ -64,7 +64,7 @@ const Layout = ({ children }) => {
   return (
       <div>
         <GlobalStyle />
-        <img id="mobile-logo" src={PTPHorizontalLogo}/>
+        <img id="mobile-logo" src={PTPHorizontalLogo} alt="mobile-view-logo"/>
         <Hamburger />
         <Nav/>
             <section>{children}</section> 
