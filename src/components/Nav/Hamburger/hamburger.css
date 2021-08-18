@@ -1,41 +1,34 @@
 div.hamburger {
-    padding-top: 40px;
+    /* padding-top: 40px; */
     position: fixed;
-    right: 45px;
+    right: 8vw;
+    top: 7vh;
     width: 2rem;
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
     z-index: 100;
 }
- #one {
-    
+ #one { 
     width: 2.5rem;
     height: 0.22rem;
-    transform-origin: 1px;
-    transition: all 0.3s ease-in-out; 
     padding: 2px 0 2px 0;
     margin: 1px 0 2px 0;
     background: #C2E114;
 }
  #two {
-   
     width: 2.5rem;
-    height: 0.22rem;
-    transform-origin: 1px;
-    transition: all 0.3s ease-in-out; 
+    height: 0.22rem; 
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
-    background: #C2E114;
+    background: rgb(111, 195, 95);
 }
  #three { 
     width: 2.5rem;
     height: 0.22rem;
-    transform-origin: 1px;
-    transition: all 0.3s ease-in-out;
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
-    background: #C2E114;
+    background: rgb(17, 134, 136)
 }
 
 @media (min-width: 767px) {

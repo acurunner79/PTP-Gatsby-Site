@@ -1,4 +1,4 @@
-.underline {
+/* .underline {
   color: inherit;
   text-decoration: inherit;
 }
@@ -34,7 +34,6 @@ img.navlogo {
 div.links-container li.links {
   color: #C2E114;
   font-size: 20px;
-  padding-top: 20px;
 }
 
 .links-container {
@@ -44,7 +43,6 @@ div.links-container li.links {
   justify-content: center;
   height: 150px;
   margin: auto 0;
-  /* align-items: flex-end; */
   text-align: left !important;
 }
 
@@ -55,7 +53,11 @@ div.links-container li.links {
 }
 @media (min-width: 767px) {
   img.navlogo{
-    display: none;
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    width: 20vw;
+    padding: 0;
+    margin: 0;
   }
   
   .menu-bar {
@@ -70,14 +72,12 @@ div.links-container li.links {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 160px;
-    width: 100%;
+    height: 18vh;
+    width: 100% !important;
     text-decoration: none !important;
-    padding: 0 40px;
   }
 
   div.links-container{
-    padding: 20px 0 0 0;
     background-color: rgb(29, 28, 28);
   }
   
@@ -110,4 +110,4 @@ div.links-container li.links {
     font-size: 30px;
     padding-top: 25px;
   }
-}
+} */

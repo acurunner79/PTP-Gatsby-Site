@@ -89,8 +89,9 @@ div.mid-cont-card{
 }
 div.mid-cont-card:hover{
   transform: scale(1.1);
-  box-shadow: 2px 2px 15px rgba(98, 98, 98, 0.329);
+  box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.541);
   border: 2px solid rgb(194, 225, 20) !important;
+  background-color: rgb(21, 21, 22);
 }
 
 p.path-text{

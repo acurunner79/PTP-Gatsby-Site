@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/index'
-import MoveStuffAround from '../components/StockTicker'
+import { AiOutlineMail, AiOutlineFieldTime } from 'react-icons/ai'
 import '../styles/contact.css'
 
 
@@ -10,7 +10,7 @@ const Contact = () => {
         <Layout>
             <div id="contact-form">
                 <div id="contact-card">
-                    <h1>Contact Us</h1>
+                    <h3 className="contact-headers">Contact Us</h3>
                 <form>
                     <label className ="form-title">Name<br/>
                         <input className="form-input"
@@ -48,12 +48,13 @@ const Contact = () => {
                 </form>
                 </div>
                 <div id="contact-info">
-                    <h1>Path Trading Partners</h1>
-                    <h6>support@pathtradingpartners.com</h6>
-                    {/* <br/> */}
-                    <h1>Hours of Operation</h1>
-                    <h3>Monday-Friday</h3>
-                    <h6>7am-4pm CST</h6>
+                    <h3 className="contact-headers">Path Trading Partners</h3>
+                    <AiOutlineMail color="white" size="30"/>
+                    <h5>support@pathtradingpartners.com</h5>
+                    <h3 className="contact-headers">Hours of Operation</h3>
+                    <AiOutlineFieldTime color="white" size="30"/>
+                    <h5>Monday-Friday 7am-4pm CST</h5>
+                    <h5></h5>
                 </div>
             </div>
         </Layout>

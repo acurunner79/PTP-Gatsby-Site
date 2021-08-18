@@ -1,25 +1,32 @@
 import React from "react"
 import { createGlobalStyle } from "styled-components";
 import Nav from '../Nav/index'
+import Hamburger from '../Nav/Hamburger/index'
 import Footer from '../Footer/index'
+import PTPHorizontalLogo from '../../images/pathtradingpartners_horizontal.png'
 
 
 const GlobalStyle = createGlobalStyle`
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  height: 100%;
+  width: 100vw;
   text-align: center;
   background-image: linear-gradient(180deg, #20222b, transparent),url('https://res.cloudinary.com/acurunner79/image/upload/v1624855170/5f827abe96c870c79155bf5c_Hero_20-_20Stocks_c0cij3.png');
   background-color: rgb(39,38,38);
   background-repeat: no-repeat;
   background-size: 100% !important;
-  /* background-image: url("https://www.freepik.com/vectors/background"); */
   background-position: 0px 0px, 50% 0%;
   margin: 0;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 500;
+  /* overflow-x: hidden; */
 }
 
 h1{
@@ -37,6 +44,19 @@ h2, h3, h4, p{
 ol, ul, li{
   text-decoration: none !important;
 }
+
+img#mobile-logo{
+  width: 48vw;
+  position: absolute;
+  left: 2vw;
+  top: 0.5vh;
+}
+
+@media(min-width: 767px){
+  img#mobile-logo{
+    display: none;
+  }
+}
 `
 
 const Layout = ({ children }) => {
@@ -44,7 +64,9 @@ const Layout = ({ children }) => {
   return (
       <div>
         <GlobalStyle />
-        <Nav />
+        <img id="mobile-logo" src={PTPHorizontalLogo}/>
+        <Hamburger />
+        <Nav/>
             <section>{children}</section> 
         <Footer />
       </div>

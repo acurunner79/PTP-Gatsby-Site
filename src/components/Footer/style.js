@@ -46,14 +46,16 @@ div#footer-main{
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(4, 0.3fr);
     margin: 0 auto;
+    /* place-items: center; */
 }
 
 #grid-1{
     grid-area: 1/1/2/3;
-    height: 150px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 #grid-2{
@@ -128,15 +130,16 @@ div#footer-main{
     div#footer-main{
         width: 1440px;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 0.85fr);
+        grid-template-rows: repeat(2, 0.8fr);
     }
 
     img#footer-logo{
-        padding-top: -30px;
+        /* padding-top: -30px; */
+        height: 30vh;
     }
 
     div#footer-social-media{
-        margin-bottom: 20px !important;
+        /* margin-bottom: 20px !important; */
     }
     
     #grid-1, #grid-2, #grid-3, #grid-4, #grid-5{
@@ -145,8 +148,9 @@ div#footer-main{
     
     #grid-1{
         grid-area: 1/1/2/2;
-        padding-left: 20px;
-        /* margin-bottom: 60px; */
+        /* padding-left: 20px; */
+        align-items: center;
+        margin: 0 auto ;
     }
 
     #grid-2{

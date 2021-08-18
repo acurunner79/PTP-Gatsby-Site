@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 import PTPNavLogo from '../../../images/PathTradingPartner_LogoMarkOnly.png'
+import PTPHorizontalLogo from '../../../images/pathtradingpartners_horizontal.png'
 import './rightNav.css'
 
 
@@ -9,9 +10,8 @@ const RightNav = (props) => {
   
     return (     
     <div className="links-container">
-      <Link to="/">
-        <img id="navlogo" src={PTPNavLogo} alt="ptp-logo"/>
-      </Link>
+      
+      
       <Link to="/">
         <li className="links">
           Home
@@ -42,6 +42,7 @@ const RightNav = (props) => {
             Contact Us
           </li>
       </Link>       
+        <img id="navlogo-1" src={PTPNavLogo} alt="ptp-logo"/>
     </div>
     )
 }
