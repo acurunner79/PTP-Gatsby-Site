@@ -1,0 +1,60 @@
+h1#about-mike-header{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 120px 0 40px 0;
+}
+
+#about-mike-container img{
+    width: 95vw;
+    border-radius: 8px;
+}
+
+#about-mike-container ul{
+    color: white;
+    text-align: left;
+}
+
+@media(min-width: 767px){
+    #about-mike-container img{
+        width: 80vw;
+    }
+
+    #about-mike-container ul{
+        width: 80vw;
+        margin: 20px auto;
+    }
+
+    h1#about-mike-header{
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 1023px){
+    #about-mike-container img{
+        width: 50vw;
+    }
+
+    #about-mike-container ul{
+        width: 50vw;
+    }
+}
+
+@media(min-width: 1439px){
+    h1#about-mike-header{
+        font-size: 45px;
+    }
+
+    #about-mike-container{
+        padding-bottom: 40px;
+    }
+}
+
+@media(min-width: 2559px){
+    #about-mike-container img{
+        width: 30vw;
+    }
+
+    #about-mike-container ul{
+        width: 30vw;
+    }
+}

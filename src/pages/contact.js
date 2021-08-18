@@ -49,11 +49,11 @@ const Contact = () => {
                 </div>
                 <div id="contact-info">
                     <h3 className="contact-headers">Path Trading Partners</h3>
-                    <AiOutlineMail color="white" size="30"/>
-                    <h5>support@pathtradingpartners.com</h5>
+                    
+                    <h5><AiOutlineMail color="white" size="30"/> support@pathtradingpartners.com</h5>
+                    <br/>
                     <h3 className="contact-headers">Hours of Operation</h3>
-                    <AiOutlineFieldTime color="white" size="30"/>
-                    <h5>Monday-Friday 7am-4pm CST</h5>
+                    <h5><AiOutlineFieldTime color="white" size="30"/> Monday-Friday 7am-4pm CST</h5>
                     <h5></h5>
                 </div>
             </div>

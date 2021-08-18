@@ -41,7 +41,11 @@ a{
 
     .topnav-link{
         padding: 15px 0 0 0 !important;
+        transition: transform .4s;
+    }
 
+    .topnav-link:hover{
+        transform: scale(1.1);
     }
 }
 

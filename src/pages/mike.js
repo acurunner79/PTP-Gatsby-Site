@@ -1,13 +1,14 @@
 import React from 'react'
 import Layout from '../components/Layout/index'
+import '../styles/mike.css'
 
 
 
 const Mike = () => {
     return (
         <Layout>
+            <h1 id="about-mike-header">Michael G Arnold</h1>
             <div>
-                <h1>Michael G Arnold</h1>
                 <div id="about-mike-container">
                     <img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_500/v1628190633/MIKE-A1_m6idie.jpg" alt="mike"/>
                     <ul>

@@ -15,6 +15,7 @@ div#tools-container{
 .tools-card{
     display: flex;
     flex-direction: column;
+    background-color: rgb(36, 35, 39);
     border: 2px solid rgb(131, 131, 131);
     border-radius: 10px;
     padding: 30px;
