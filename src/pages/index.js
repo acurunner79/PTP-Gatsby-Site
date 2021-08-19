@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from '../components/Layout/index'
+import SEO from '../components/SEO/index'
 import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Carousel } from 'react-bootstrap'
@@ -12,6 +13,7 @@ import '../styles/home.css'
 const IndexPage = (props) => {
   return (
     <Layout>
+      <SEO />
       <div id="upper-container">
         <MoveStuffAround />
           <h3 className="home-headers">A Path Less Traveled</h3>

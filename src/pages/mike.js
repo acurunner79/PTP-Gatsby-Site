@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/index'
+import SEO from "../components/SEO/index"
 import '../styles/mike.css'
 
 
@@ -7,6 +8,7 @@ import '../styles/mike.css'
 const Mike = () => {
     return (
         <Layout>
+            <SEO />
             <h1 id="about-mike-header">Michael G Arnold</h1>
             <div>
                 <div id="about-mike-container">

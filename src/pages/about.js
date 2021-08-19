@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout  from '../components/Layout/index'
+import SEO from "../components/SEO/index"
 import { Link } from 'gatsby'
 import { FaLaptop } from 'react-icons/fa'
 import { GiTeacher } from 'react-icons/gi'
@@ -10,6 +11,7 @@ import '../styles/about.css'
 const About = () => {
     return (
         <Layout>
+            <SEO />
             <div id="about-main">
                 {/* <div id="upper-container">
                     <h3>A Path Less Traveled</h3>

@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout/index'
+import SEO from "../components/SEO/index"
 import '../styles/terms.css'
 
 const Terms = () => {
     return (
         <Layout>
+            <SEO />
             <div id="terms-container">
                 <h3>Path Trading Partners</h3>
                 <p className="terms-paragraph">Path Trading Partners is not an investment advisor and information found on the websitedoes not constitute investmentadvice nor an offer. Solicitation or recommendation to aquire or dispose of any investment or to engage in any other transaction.The information on this site is here only for use as general information. All descriptions, example, and calculations contained herien are for illustrative purposes only. The risk of loss in trading the foreign exchange, futures, and equity & options markets can be substantial. You should therefore carefully consider whether such trading is suitable for you in light of your financial condition. Past performance is not indictive of future results.</p><br/>

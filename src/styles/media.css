@@ -1,25 +1,45 @@
+div#main-video-card{
+    width: 95vw;
+    margin: 0 auto;
+}
+
 div#main-video{
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
     border: 2px solid rgba(63, 62, 62, 0.651) !important;
-    width: 800px;
-    height: 500px;
+    width: 92vw !important;
+    height: 17vh !important;
     margin: 0 auto;
 }
 
 div#featured-videos{
+    background-color: black;
     border: 2px solid rgba(63, 62, 62, 0.651) !important;
     border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 1280px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    width: 95vw;
     margin: 40px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    overflow-x: auto;
+    width: auto;
 }
 
 div.video-card{
-    background-color: lawngreen;
     justify-content: space-between;
-    width: 350px;
-    height: 180px;
+    width: 92vw !important;
+    height: 180px !important;
     margin: 10px auto;
+}
+
+.testing{
+    font-weight: 600;
+    text-align: left;
+}
+
+div.video-card-container{
+    border: 2px solid rgba(63, 62, 62, 0.651);
+    margin: 0 auto;
 }

@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout  from '../components/Layout'
+import SEO from "../components/SEO/index"
 import '../styles/tools.css'
 
 const tools = () => {
     return (
         <Layout>
+            <SEO />
             <h3 id="tools-header">Tools</h3>
             <div id="tools-container">
                 <div className="tools-card">

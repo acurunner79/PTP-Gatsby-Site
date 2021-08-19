@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout  from '../components/Layout'
+import SEO from "../components/SEO/index"
 import { FaDesktop } from "react-icons/fa"
 import '../styles/courses.css'
 
@@ -7,6 +8,7 @@ import '../styles/courses.css'
 const Courses = () => {
     return (
         <Layout>
+            <SEO />
             <h3 className="courses-headers">Trade the Path Way</h3>
                     <p>At Path Trading Partners, we have created our courses with the mission of taking you from beginning to end, from amateur to professional. Our courses include introduction, product structure, strategy and tools. If something seems too easy, finish it anyway. If something seems too advanced, review it multiple times. If you take your trading education as seriously as we take our trading and our research, the only obstacle in your path will be time.</p>
                     <h3 className="courses-headers">Featured Courses</h3>

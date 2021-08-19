@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import SEO from "../components/SEO/index"
 import '../styles/bob.css'
 
 const Bob = () => {
     return (
         <Layout>
+            <SEO />
             <div id="about-bob-container">
             <h1 id="about-bob-header">Bob Iaccino</h1>
                     <div id="bob-section-1">                  
