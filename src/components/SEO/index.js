@@ -24,8 +24,9 @@ const Seo = ({title, keywords, description, image}) => {
     return (
         
         <Helmet
-            htmlAttributes={{
+        htmlAttributes={{
                 lang: "en",
+                title: "Path Trading Partners",
             }}
             title={title}
             meta={[
