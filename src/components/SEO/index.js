@@ -26,7 +26,6 @@ const Seo = ({title, keywords, description, image}) => {
         <Helmet
         htmlAttributes={{
                 lang: "en",
-                title: "Path Trading Partners",
             }}
             title={title}
             meta={[
@@ -68,7 +67,9 @@ const Seo = ({title, keywords, description, image}) => {
                     content: metaKeywords.join(', '),
                 } : []
             )}
-        />
+        >
+            <title>Path Trading Partners</title>
+        </Helmet>
     );
 }
 
