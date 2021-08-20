@@ -25,7 +25,13 @@ module.exports = {
       options: {
         fonts: [
           `Montserrat`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+          `Play`,
+          `Gruppo`,
+          `Roboto`,
+          `Raleway`,
+          `Ubuntu`,
+          `Poppins`,
+          `cursive\:300,400,400i,700` // you can also specify font weights and styles
         ],
         display: 'swap'
       }

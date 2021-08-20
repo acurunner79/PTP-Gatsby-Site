@@ -1,6 +1,3 @@
-#main-banner{
-  display: none;
-}
 
 a{
   color: inherit;
@@ -13,15 +10,13 @@ p{
   padding: 0 8px;
 }
 
-h3.home-headers{
-  font-size: 25px;
-  font-weight: 600;
-  margin: 40px 3px 0 3px;
+h1.home-headers{
+  margin: 20px 0;
 }
 
 h4#pdf-link, a{
   list-style: none !important;
-  color: rgb(194, 225, 20) !important;
+  color: rgb(21, 170, 148) !important;
   padding-top: 20px !important;
   font-weight: 500;
   transition: transform .2s;
@@ -36,15 +31,15 @@ div.slider{
 }
 
 h4#tools-link{
-  color: rgb(194, 225, 20) !important;
+  color: rgb(21, 170, 148) !important;
   padding-top: 20px !important;
   font-weight: 500;
   list-style: none !important;
 }
 
 #upper-container{
-  padding: 20px 20px;
-  margin: 20px 20px;
+  /* padding: 20px 20px; */
+  margin-top: 120px;
 }
 
 #pdf-container{
@@ -98,18 +93,6 @@ p.path-text{
   text-align: center;
 }
 
-#bob-main{
-  height: 370px;
-}
-
-.image{
-  width: 375px;
-  margin: 0 auto;
-}
-.twitter-icon{
-  margin: 0 auto;
-}
-
 #lower-container{
   display: flex;
   flex-direction: column;
@@ -158,7 +141,8 @@ img.vendors-image{
   
   div.slider{
     display: block;
-    margin: 40px auto;
+    margin: 80px auto;
+    width: 90vw;
   }
 
   .carousel-control-next, .carousel-control-prev{
@@ -170,17 +154,14 @@ img.vendors-image{
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
+  div#vendors-card{
+    width: 95vw;
+  }
 }
 
 @media (min-width: 1023px){
-  
-  .image{
-    height: 444px;
-    width: 400px;
-    border: 2px solid black;
-    background-color: blue;
-  }
-  
+
   #mid-container{
     display: flex;
     justify-content: space-around;
@@ -240,8 +221,9 @@ img.vendors-image{
 }
 
 @media(min-width: 1439px){
-  h3.home-headers{
-    font-size: 55px;
+  h1.home-headers{
+    /* font-size: 55px; */
+    /* margin-bottom: 10px; */
   }
   
   div#main-banner{
@@ -249,7 +231,7 @@ img.vendors-image{
   }
 
   div.slider{
-    width: 1280px;
+    max-width: 1280px;
   }
 
   #pdf{
@@ -259,7 +241,7 @@ img.vendors-image{
 
   #pdf-container{
     width: 90vw;
-    margin: 80px auto !important;
+    /* margin: 80px auto !important; */
   }
 
   #mid-container{
@@ -297,9 +279,17 @@ img.vendors-image{
 @media(min-width: 2559px){
   #pdf-container{
     width: 60vw;
-    margin: 90px auto !important;
+    /* margin: 90px auto !important; */
   }
+
   div#stock-think-tank-card{
     width: 30vw;
+  }
+
+  div#vendors-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1536px;
   }
 }

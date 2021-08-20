@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player/youtube'
 import '../styles/media.css'
 
 const Media = (props) => {
-    console.log('propss', props.data.allYoutubeVideo.edges[0].node.videoId)
+    console.log('propss', props.data.allYoutubeVideo.edges)
 
     
     return (

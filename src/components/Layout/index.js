@@ -8,7 +8,6 @@ import PTPHorizontalLogo from '../../images/pathtradingpartners_horizontal.png'
 
 const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -24,20 +23,26 @@ body {
   background-size: 100% !important;
   background-position: 0px 0px, 50% 0%;
   margin: 0;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   /* overflow-x: hidden; */
 }
 
+a{
+  color: rgb(21, 170, 148);
+  list-style: none !important;
+}
+
 h1{
-  font-size: 60px;
+  font-size: 50px;
+  color: rgb(21, 170, 148) !important;
 }
 
 h2{
-  font-size: 40px;
+  /* font-size: 40px; */
 }
 
-h2, h3, h4, p{
+h2, h3, h4, h5, p{
   color: white;
 }
 

@@ -7,10 +7,8 @@ p.courses-text{
     width: 100%;
 }
 
-h3.courses-headers{
-    font-size: 25px;
-    font-weight: 600;
-    margin: 70px 0 30px 0;
+h1.courses-headers{
+    margin: 140px 0 30px 0;
 }
 
 div#shop-container{
@@ -30,6 +28,12 @@ div#shop-container{
     padding: 10px;
     margin: 10px 10px;
     align-items: center;
+    transition: transform .4s;
+}
+
+.shop-card:hover{
+    border: 2px solid rgb(194, 225, 20);
+    transform: scale(1.05);
 }
 
 #courses-icon{

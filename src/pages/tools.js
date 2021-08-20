@@ -7,7 +7,8 @@ const tools = () => {
     return (
         <Layout>
             <SEO />
-            <h3 id="tools-header">Tools</h3>
+            <h1 id="tools-header">Tools</h1>
+            <p>We need some text to fill this space. It will give this page a better look. </p>
             <div id="tools-container">
                 <div className="tools-card">
                     <img id="motivewave-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1628536007/logo_250x250_2_bykyty.png" alt="Motive Wave"></img>

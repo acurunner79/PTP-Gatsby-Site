@@ -1,7 +1,7 @@
-h3#tools-header{
-    font-size: 45px;
-    font-weight: 600;
-    margin: 60px 0 40px 0;
+h1#tools-header{
+    /* font-size: 45px; */
+    /* font-weight: 600; */
+    margin: 140px 0 40px 0;
 }
 
 div#tools-container{
@@ -22,6 +22,12 @@ div#tools-container{
     margin: 20px;
     align-items: center;
     text-align: left;
+    transition: transform .4s;
+}
+
+.tools-card:hover{
+    border: 2px solid rgb(194, 225, 20);
+    transform: scale(1.05);
 }
 
 #tools-ul li{
@@ -55,8 +61,7 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
 }
 
 @media(min-width: 767px){
-    h3#tools-header{
-        font-size: 55px;
+    h1#tools-header{
         margin-top: 80px;
     }
 
@@ -81,7 +86,7 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
     }
     
     .tools-card{
-        width: 45vw;
+        max-width: 648px;
         margin: 20px auto;
     }
 
@@ -98,8 +103,9 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
 }
 
 @media(min-width: 1779px){
-    .tools-card{
-        width: 35vw;
+    div#tools-container{
+        max-width: 2205px;
+        margin: 80px auto;
     }
 
     h3.motivewave-links{

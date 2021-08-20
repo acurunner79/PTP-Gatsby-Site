@@ -12,7 +12,7 @@ const Contact = () => {
             <SEO />
             <div id="contact-form">
                 <div id="contact-card">
-                    <h3 className="contact-headers">Contact Us</h3>
+                    <h1 className="contact-headers">Contact Us</h1>
                 <form>
                     <label className ="form-title">Name<br/>
                         <input className="form-input"

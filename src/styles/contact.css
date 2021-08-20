@@ -1,6 +1,6 @@
-h3.contact-headers{
-    font-size: 25px;
-    font-weight: 600;
+h1.contact-headers{
+    /* font-size: 25px;
+    font-weight: 600; */
 }
 
 #contact-form{
@@ -20,7 +20,7 @@ h3.contact-headers{
 .form-title{
     padding:10px 0 20px 0 !important;
     text-align: left;
-    color: white;
+    color: rgb(21, 170, 148);
 }
 
 .form-input{
@@ -39,12 +39,12 @@ h3.contact-headers{
 }
 
 #form-submit{
-    border: 2px solid rgb(194, 225, 20);
+    border: 2px solid rgb(21, 170, 148);
     width: 80vw;
     margin: 30px 0px 10px 0px;
     padding: 10px;
     border-radius: 8px;
-    color: rgb(194, 225, 20);
+    color: rgb(21, 170, 148);
     font-size: 20px;
     font-weight: 600;
     background-color: rgb(36, 35, 39);
@@ -57,6 +57,10 @@ h3.contact-headers{
 
 #contact-info{
     margin: 60px 0 60px 0;
+}
+
+h3.contact-headers{
+    color: rgb(21, 170, 148);
 }
 
 @media(min-width: 767px){
@@ -78,6 +82,10 @@ h3.contact-headers{
 
     #message{
         width: 80vw;
+    }
+
+    #form-submit{
+        width: 40vw;
     }
 }
 
