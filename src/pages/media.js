@@ -7,18 +7,19 @@ import '../styles/media.css'
 
 const Media = (props) => {
     console.log('propss', props.data.allYoutubeVideo.edges)
+
     
     return (
         <Layout>
             <h1 className="media-headers">Media Layout</h1>
             <div id="main-video-card">
+                
                 <ReactPlayer id="main-video"
                     url={`"https://www.youtube.com/embed/${props.data.allYoutubeVideo.edges[0].node.videoId}"`}
                     light={props.data.allYoutubeVideo.edges[0].node.thumbnail.url}
-                    controls="true"
-                />
+                    controls="true"/>
                 <h3 className="video-title">{props.data.allYoutubeVideo.edges[0].node.title}</h3>
-            </div>
+            </div><br/>
             <div id="featured-videos">
                 <h2 className="vids-cont-label">Latest Videos</h2>
                 <div className="video-card-container">

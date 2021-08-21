@@ -25,7 +25,21 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+  
+body::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: inset 0 0 12px transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid slategrey;
 }
 
 a{

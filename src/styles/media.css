@@ -2,18 +2,18 @@
     margin-top: 140px;
 }
 
+.video-card-container:-webkit-scrollbar-track{
+   background-color: black;
+  }
+
 div#main-video-card{
-    background-color: black;
-    border: 2px solid rgb(21, 170, 148) !important;
+    border: 2px outset rgba(63, 62, 62, 0.651) !important;
     border-radius: 8px;
     width: 95vw;
-    /* height: 67vh; */
-    margin: 40px auto;
+    margin: 40px auto !important;
 }
 
 div#main-video{
-    /* background-color: lawngreen; */
-    /* border: 2px solid rgba(63, 62, 62, 0.651) !important; */
     width: 92vw !important;
     height: 30vh !important;
     margin: 10px auto;
@@ -26,12 +26,10 @@ div#main-video{
 }
 
 .video-card-container{
-    background-color: black;
-    /* border: 2px solid rgb(21, 170, 148) !important; */
-    /* border-radius: 8px; */
     width: 95vw;
     margin: 40px auto;
     display: flex;
+    gap: 0.5rem;
     flex-wrap: nowrap;
     height: 40vh;
     overflow-x: auto;
@@ -47,7 +45,7 @@ div.video-card{
 }
 
 div.vid-slot{
-    border: 2px inset rgba(63, 62, 62, 0.651);
+    border: 2px outset rgba(63, 62, 62, 0.651);
 }
 
 .video-title{
@@ -57,14 +55,13 @@ div.vid-slot{
 }
 
 div.video-card-container{
-    border: 2px solid rgba(63, 62, 62, 0.651);
     margin: 0 auto;
 }
 
 @media(min-width: 767px){
-    div#main-video-card{
-        height: 54vh;
-    }
+    /* div#main-video-card{
+        width: 90vw !important;
+    } */
 
     div#main-video{
         height: 40vh !important;
@@ -79,8 +76,27 @@ div.video-card-container{
     }
 }
 
-@media(min-width: 1879px){
+@media(min-width: 1023px){
+    div.video-card{
+        max-width: 450px;
+        height: 27vh !important;
+    }
+
+    div#main-video{
+        /* height: 45vh !important;
+        width: 75vw !important; */
+        max-height: 490px !important;
+        max-width: 800px !important;
+    }
+
     div#main-video-card{
+        max-height: 555px !important;
+        max-width: 819px !important;
+    }
+}
+
+@media(min-width: 1879px){
+    /* div#main-video-card{
         width: 52vw !important;
         height: 72vh !important;
     }
@@ -88,5 +104,5 @@ div.video-card-container{
     div#main-video{
         width: 50vw !important;
         height: 60vh !important;
-    }
+    } */
 }
