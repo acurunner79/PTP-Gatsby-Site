@@ -1,45 +1,92 @@
+.media-headers{
+    margin-top: 140px;
+}
+
 div#main-video-card{
+    background-color: black;
+    border: 2px solid rgb(21, 170, 148) !important;
+    border-radius: 8px;
     width: 95vw;
-    margin: 0 auto;
+    /* height: 67vh; */
+    margin: 40px auto;
 }
 
 div#main-video{
     /* background-color: lawngreen; */
-    border: 2px solid rgba(63, 62, 62, 0.651) !important;
+    /* border: 2px solid rgba(63, 62, 62, 0.651) !important; */
     width: 92vw !important;
-    height: 17vh !important;
-    margin: 0 auto;
+    height: 30vh !important;
+    margin: 10px auto;
 }
 
-div#featured-videos{
+.vids-cont-label{
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(21, 170, 148);
+}
+
+.video-card-container{
     background-color: black;
-    border: 2px solid rgba(63, 62, 62, 0.651) !important;
-    border-radius: 8px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
+    /* border: 2px solid rgb(21, 170, 148) !important; */
+    /* border-radius: 8px; */
     width: 95vw;
     margin: 40px auto;
     display: flex;
     flex-wrap: nowrap;
-    height: 300px;
+    height: 40vh;
     overflow-x: auto;
     width: auto;
 }
 
 div.video-card{
     justify-content: space-between;
+    text-align: left;
     width: 92vw !important;
     height: 180px !important;
-    margin: 10px auto;
+    margin: 10px;
 }
 
-.testing{
+div.vid-slot{
+    border: 2px inset rgba(63, 62, 62, 0.651);
+}
+
+.video-title{
     font-weight: 600;
     text-align: left;
+    padding: 20px;
 }
 
 div.video-card-container{
     border: 2px solid rgba(63, 62, 62, 0.651);
     margin: 0 auto;
+}
+
+@media(min-width: 767px){
+    div#main-video-card{
+        height: 54vh;
+    }
+
+    div#main-video{
+        height: 40vh !important;
+    }
+
+    div.video-card{
+        width: 44vw !important;
+    }
+
+    div.video-card-container{
+        height:47vh;
+    }
+}
+
+@media(min-width: 1879px){
+    div#main-video-card{
+        width: 52vw !important;
+        height: 72vh !important;
+    }
+
+    div#main-video{
+        width: 50vw !important;
+        height: 60vh !important;
+    }
 }

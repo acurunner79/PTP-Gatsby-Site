@@ -117,7 +117,7 @@ div#footer-main{
 
     .social-media-icons:hover{
         transform: scale(1.3);
-        color: rgb(194, 225, 20);
+        color: white;
     }
 
     #grid-4{
