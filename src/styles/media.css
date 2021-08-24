@@ -50,6 +50,7 @@ div.vid-slot{
 }
 
 .video-title{
+    font-size: 16px;
     font-weight: 600;
     text-align: left;
     padding: 20px;
@@ -57,6 +58,10 @@ div.vid-slot{
 
 div.video-card-container{
     margin: 0 auto;
+}
+
+#featured-videos{
+    margin: 40px auto;
 }
 
 @media(min-width: 767px){
@@ -80,19 +85,39 @@ div.video-card-container{
 @media(min-width: 1023px){
     div.video-card{
         max-width: 450px;
-        height: 27vh !important;
+        height: 32vh !important;
     }
 
     div#main-video{
-        /* height: 45vh !important;
-        width: 75vw !important; */
-        max-height: 490px !important;
-        max-width: 800px !important;
+        height: 55vh !important;
+        width: 75vw !important;
+        /* max-height: 490px !important;
+        max-width: 800px !important; */
     }
 
     div#main-video-card{
-        max-height: 555px !important;
-        max-width: 819px !important;
+        height: 65vh !important;
+        width: 80vw !important;
+    }
+}
+
+@media(min-width: 1439px){
+    div#main-video{
+        max-height: 540px !important;
+        max-width: 1080px !important;
+        /* max-height: 490px !important;
+        max-width: 800px !important; */
+    }
+
+    div#main-video-card{
+        max-height: 620px !important;
+        max-width: 1095px !important;
+        margin: 0 auto;
+    }
+
+    .video-title{
+        padding-left: 40px;
+        font-size: 18px;
     }
 }
 

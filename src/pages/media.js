@@ -2,10 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
 import ReactPlayer from 'react-player/youtube'
-// import { Slider, Direction, PlayerIcon } from 'react-player-controls'
 import VideoPlayer from '../components/VideoPlayer/index'
-// import ProgressBar from '../components/ProgressBar/index'
-
 import '../styles/media.css'
 
 const Media = (props) => {

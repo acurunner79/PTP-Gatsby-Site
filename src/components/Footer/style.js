@@ -7,6 +7,7 @@ ul li{
     color: lightgray;
     padding: 6px 0 !important;
 }
+
 h5{
     font-size: 14px;
     color: white;
@@ -25,7 +26,6 @@ img#footer-logo{
 }
 
 div#footer-social-media a{
-    padding-right: 10px;
     margin: 10px;
     align-items: center !important;
 }
@@ -45,7 +45,7 @@ div#footer-main{
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(4, 0.3fr);
-    margin: 0 auto;
+    margin: 20px auto;
     /* place-items: center; */
 }
 
@@ -79,6 +79,16 @@ div#footer-main{
     width: 100%;
     place-items: center;
     padding: 20px;
+}
+
+@media(min-width: 568px){
+    div#footer-main{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(4, 0.45fr);
+    margin: 20px auto;
+    /* place-items: center; */
+}
 }
 @media(min-width: 767px){
     
