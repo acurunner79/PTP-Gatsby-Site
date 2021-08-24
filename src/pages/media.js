@@ -3,17 +3,20 @@ import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
 import ReactPlayer from 'react-player/youtube'
 // import { Slider, Direction, PlayerIcon } from 'react-player-controls'
+import VideoPlayer from '../components/VideoPlayer/index'
+// import ProgressBar from '../components/ProgressBar/index'
+
 import '../styles/media.css'
 
 const Media = (props) => {
-    console.log('propss', props.data.allYoutubeVideo.edges)
+    // console.log('propss', props.data.allYoutubeVideo.edges)
 
     
     return (
         <Layout>
+            {/* <VideoPlayer video={props.data.allYoutubeVideo.edges[0].node.videoId} poster={props.data.allYoutubeVideo.edges[0].node.thumbnail.url} title={props.data.allYoutubeVideo.edges[0].node.title}/> */}
             <h1 className="media-headers">Media Layout</h1>
             <div id="main-video-card">
-                
                 <ReactPlayer id="main-video"
                     url={`"https://www.youtube.com/embed/${props.data.allYoutubeVideo.edges[0].node.videoId}"`}
                     light={props.data.allYoutubeVideo.edges[0].node.thumbnail.url}

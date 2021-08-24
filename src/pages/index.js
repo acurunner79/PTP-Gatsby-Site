@@ -45,7 +45,7 @@ const IndexPage = (props) => {
       <div id="pdf-container">
         <img id="pdf" src="https://res.cloudinary.com/acurunner79/image/upload/v1629129945/STT_newsletter_vol002issue007-1_td3p6w.png" alt="pdf-bob"/>
         <div id="stock-think-tank-card">
-          <h1 className="home-headers">New Stocks and Special Plays - “Bob's Monthly Newsletter”</h1><br/>
+          <h2 className="home-headers">New Stocks and Special Plays - “Bob's Monthly Newsletter”</h2><br/>
           <p className="stockthink-para">Bob and Mike launched The Stock Think Tank to help investors learn how to properly balance risk and reward in their personal stock portfolios.</p><br/>
           <p className="stockthink-para">8 page monthly newsletter giving traders and investors a “deep dive” into Bob’s favorite opportunities for the month. These timely and insightful recommendations will tell you all about the opportunities and why Bob recommends them.</p><br/>
           <h4 id="pdf-link"><a target="_blank" rel="noreferrer" href="https://alternativedaily.s3.amazonaws.com/StockThinkTank/Newsletters/STT_newsletter_vol002issue007.pdf">Read full article</a></h4>
