@@ -16,7 +16,7 @@ div#main-video-card{
     /* border: 2PX SOLID RED; */
     border-radius: 8px;
     max-width: 1280px !important;
-    max-height: 500px !important;
+    max-height: 650px !important;
     /* width: 95vw !important; */
     /* height: 500px !important; */
     margin: 0 auto !important;
@@ -25,7 +25,7 @@ div#main-video-card{
 
 div#main-video{
     max-width: 1280px !important;
-    max-height: 500px !important;
+    max-height: 650px !important;
     width: 98% !important;
     height: 100% !important;
     position: absolute;
@@ -55,6 +55,10 @@ div#main-video{
     left: 2%;
 }
 
+h1#middle-header{
+    margin-top: 100px;
+}
+
 .vids-cont-label{
     text-align: left;
     margin-left: 10px;
@@ -67,7 +71,7 @@ div#main-video{
     display: flex;
     gap: 0.5rem;
     flex-wrap: nowrap;
-    height: 40vh;
+    max-height: 440px;
     overflow-x: auto;
     width: auto;
 }
@@ -76,7 +80,7 @@ div.video-card{
     justify-content: space-between;
     text-align: left;
     width: 92vw !important;
-    height: 180px !important;
+    max-height: 230px !important;
     margin: 10px;
 }
 
@@ -101,6 +105,15 @@ div.video-card-container{
     margin: 40px auto;
 }
 
+#youtube-link{
+    margin: 60px 0;
+    transition: transform .4s;
+}
+
+#youtube-link:hover{
+    transform: scale(1.1);
+}
+
 @media(min-width: 767px){
 
     /* div#main-video{
@@ -111,15 +124,19 @@ div.video-card-container{
         width: 44vw !important;
     }
 
-    div.video-card-container{
-        height:47vh;
-    }
+    /* div.video-card-container{
+        height: 60vh;
+    } */
 }
 
 @media(min-width: 1023px){
     div.video-card{
         max-width: 450px;
-        /* height: 32vh !important; */
+        /* height: 35vh !important; */
+    }
+
+    div.video-card-container{
+        /* height: 50vh !important; */
     }
 
     /* div#main-video{
@@ -134,21 +151,14 @@ div.video-card-container{
     } */
 }
 
-@media(min-width: 1439px){
-    div#main-video{
-        /* width: 98% !important; */
-        /* max-height: 490px !important;
-        max-width: 800px !important; */
-    }
-
+@media(min-width:1168px){
     div#main-video-card{
-        /* max-height: 620px !important; */
-        /* max-width: 900px !important; */
-        /* margin: 0 auto; */
+        padding-bottom: 36.25rem;
     }
+}
 
+@media(min-width: 1439px){
     .video-title{
-        padding-left: 40px;
         font-size: 18px;
     }
 }

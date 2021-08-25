@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
 import ReactPlayer from 'react-player/youtube'
+import { FaYoutube } from 'react-icons/fa'
 import VideoPlayer from '../components/VideoPlayer/index'
 import '../styles/media.css'
 
@@ -12,16 +13,17 @@ const Media = (props) => {
     return (
         <Layout>
             {/* <VideoPlayer video={props.data.allYoutubeVideo.edges[0].node.videoId} poster={props.data.allYoutubeVideo.edges[0].node.thumbnail.url} title={props.data.allYoutubeVideo.edges[0].node.title}/> */}
-            <h1 className="media-headers">Media Layout</h1>
+            <h1 className="media-headers">Today's Highlight</h1>
             <div id="main-video-card">
                 <ReactPlayer id="main-video"
                     url={`"https://www.youtube.com/embed/${props.data.allYoutubeVideo.edges[0].node.videoId}"`}
                     light={props.data.allYoutubeVideo.edges[0].node.thumbnail.url}
                     controls="true"/>
-                <div className="main-video-title">
-                    <h3>{props.data.allYoutubeVideo.edges[0].node.title}</h3>
-                </div>
-            </div><br/>
+            <div className="main-video-title">
+                <h3>{props.data.allYoutubeVideo.edges[0].node.title}</h3>
+            </div>
+            </div><br/><br/>
+            <h1 id="middle-header">More videos from Path Trading Partners</h1>
             <div id="featured-videos">
                 <h2 className="vids-cont-label">Latest Videos</h2>
                 <div className="video-card-container">
@@ -103,8 +105,8 @@ const Media = (props) => {
                             light={props.data.allYoutubeVideo.edges[12].node.thumbnail.url}/>
                         <h3 className="video-title">{props.data.allYoutubeVideo.edges[12].node.title}</h3>
                     </div>
-                </div>
-                
+                </div> 
+            <h3 id="youtube-link"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">Check out our Youtube channel</a> <FaYoutube color="red" size="40"/></h3>
             </div>
         </Layout>
     )
