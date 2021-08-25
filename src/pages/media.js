@@ -18,7 +18,9 @@ const Media = (props) => {
                     url={`"https://www.youtube.com/embed/${props.data.allYoutubeVideo.edges[0].node.videoId}"`}
                     light={props.data.allYoutubeVideo.edges[0].node.thumbnail.url}
                     controls="true"/>
-                <h3 className="video-title">{props.data.allYoutubeVideo.edges[0].node.title}</h3>
+                <div className="main-video-title">
+                    <h3>{props.data.allYoutubeVideo.edges[0].node.title}</h3>
+                </div>
             </div><br/>
             <div id="featured-videos">
                 <h2 className="vids-cont-label">Latest Videos</h2>
