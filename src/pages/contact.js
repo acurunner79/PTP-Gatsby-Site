@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/index'
-import SEO from "../components/SEO/index"
+import Seo from "../components/SEO/index"
 import { AiOutlineMail, AiOutlineFieldTime } from 'react-icons/ai'
 import '../styles/contact.css'
 
@@ -9,7 +9,7 @@ import '../styles/contact.css'
 const Contact = () => {
     return (
         <Layout>
-            <SEO />
+            <Seo />
             <div id="contact-form">
                 <div id="contact-card">
                     <h1 className="contact-headers">Contact Us</h1>

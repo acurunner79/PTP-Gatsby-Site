@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout  from '../components/Layout'
-import SEO from "../components/SEO/index"
+import Seo from "../components/SEO/index"
 import '../styles/tools.css'
 
 const tools = () => {
     return (
         <Layout>
-            <SEO />
+            <Seo />
             <h1 id="tools-header">Tools</h1>
             <p>We need some text to fill this space. It will give this page a better look. </p>
             <div id="tools-container">

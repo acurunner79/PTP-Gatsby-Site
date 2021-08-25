@@ -42,7 +42,6 @@ div#about-bob-container{
 
     #bob-section-1 img, #bob-section-2 img{
         width: 40vw;
-        /* border: 2px solid red; */
     }
 
     div#about-bob-container{
@@ -51,7 +50,6 @@ div#about-bob-container{
         align-items: center;
         justify-content: space-evenly;
         width: 100vw;
-        /* height: 100vh; */
     }
 
     #bob-section-1{

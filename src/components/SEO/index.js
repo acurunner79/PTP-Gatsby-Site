@@ -19,7 +19,7 @@ const Seo = ({title, keywords, description, image}) => {
 
     const metaTitle = title || site.siteMetadata?.title
     const metaDescription = description || site.siteMetadata?.description
-    const metaImage = image || "src/images/PathTrading Partners_Final Logo[vector](1).png"
+    // const metaImage = image || "src/images/PathTrading Partners_Final Logo[vector](1).png"
     const metaKeywords = keywords || ['path trading partners','bob iaccino','mike arnold']
     return (
         

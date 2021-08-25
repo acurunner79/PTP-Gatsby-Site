@@ -1,6 +1,5 @@
 @media(min-width: 320px){
   p{
-    
     padding: 0 8px;
   }
 
@@ -75,7 +74,6 @@
   img.vendors-image{
     width: 350px;
     padding: 40px 20px;
-    
   }
 }
 
@@ -121,7 +119,6 @@
   }
   
   #upper-container{
-    /* padding: 20px 20px; */
     margin-top: 120px;
   }
   
@@ -193,7 +190,6 @@
   img.vendors-image{
     width: 350px;
     padding: 40px 20px;
-    
   }
 }
 
@@ -303,7 +299,6 @@
   #bob-main{
     display: flex;
     flex-direction: row !important;
-    /* max-width: 300px; */
   }
   
   div.headshot-card , div.FaTwitter{
@@ -326,7 +321,6 @@
 
 @media(min-width: 1116px){
   h1.home-headers{
-    /* font-size: 55px; */
     margin-top: 60px !important;
   }
 
@@ -368,11 +362,9 @@
   
   #pdf-container{
     width: 90vw;
-    /* margin: 80px auto !important; */
   }
   
   #mid-container{
-    /* width: 57vw; */
     justify-content: space-around;
   }
   
@@ -414,7 +406,6 @@
 @media(min-width: 2559px){
   #pdf-container{
     width: 60vw;
-    /* margin: 90px auto !important; */
   }
 
   div#stock-think-tank-card{

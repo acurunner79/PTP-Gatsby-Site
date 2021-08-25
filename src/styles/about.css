@@ -3,14 +3,11 @@ div#about-main{
 }
 
 h1.about-headers{
-    /* font-size: 25px; */
-    /* font-weight: 600; */
     margin: 40px auto;
 }
 
 #about-container{
     margin: 0 auto;
-    
     text-align: center;
 }
 
@@ -58,10 +55,6 @@ img.img{
 }
 
 @media(min-width: 767px){
-    .about-headers{
-        /* font-size: 45px; */
-    }
-
     img.img{
         width: 80vw !important;
     }

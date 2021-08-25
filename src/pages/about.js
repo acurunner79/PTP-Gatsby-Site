@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout  from '../components/Layout/index'
-import SEO from "../components/SEO/index"
+import Seo from "../components/SEO/index"
 import { Link } from 'gatsby'
 import { FaLaptop } from 'react-icons/fa'
 import { GiTeacher } from 'react-icons/gi'
@@ -11,7 +11,7 @@ import '../styles/about.css'
 const About = () => {
     return (
         <Layout>
-            <SEO />
+            <Seo />
             <div id="about-main">
                 <h1 className="about-headers">Who We Are</h1>
                 <div id="about-container">
