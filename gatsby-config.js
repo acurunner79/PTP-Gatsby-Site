@@ -44,6 +44,13 @@ module.exports = {
         // maxVideos: 50 // Defaults to 50
       },
     },
+    {
+      resolve: `gatsby-plugin-trigger-deploy`,
+      options: {
+        secretKey: 'a super secret key, maybe with emojis? 🍕',
+        addressCallback: 'http://localhost/endpoint/for/notifying',
+      },
+    },
     // {
     //   resolve: 'gatsby-plugin-mailchimp',
     //   options: {

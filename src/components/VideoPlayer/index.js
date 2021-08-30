@@ -142,25 +142,25 @@ const VideoPlayer = (video) => {
 
 export default VideoPlayer
 
-export const query = graphql`
-    query video {
-        allYoutubeVideo(filter: {channelId: {eq: "UCDFTQBiJea-YwAdiB6121aA"}}) {
-            edges {
-                node {
-                    id
-                    title
-                    description
-                    videoId
-                    publishedAt
-                    privacyStatus
-                    channelTitle
-                    thumbnail {
-                        url
-                        height
-                        width
-                    }
-                }
-            }   
-        }
-    }
-`
+// export const query = graphql`
+//     query video {
+//         allYoutubeVideo(filter: {channelId: {eq: "UCDFTQBiJea-YwAdiB6121aA"}}) {
+//             edges {
+//                 node {
+//                     id
+//                     title
+//                     description
+//                     videoId
+//                     publishedAt
+//                     privacyStatus
+//                     channelTitle
+//                     thumbnail {
+//                         url
+//                         height
+//                         width
+//                     }
+//                 }
+//             }   
+//         }
+//     }
+// `

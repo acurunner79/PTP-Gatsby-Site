@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { graphql } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import ReactPlayer from 'react-player/youtube'
 import { FaYoutube } from 'react-icons/fa'
 import VideoPlayer from '../components/VideoPlayer/index'
