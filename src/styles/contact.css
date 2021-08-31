@@ -23,7 +23,8 @@
     background-color: rgba(255, 255, 255, 0.616);
     border-radius: 8px;
     width: 80vw;
-    height: 7vh;
+    height: 4vh;
+    padding-left: 7px;
 }
 
 #message{
@@ -31,6 +32,7 @@
     height: 20vh;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.616);
+    padding-left: 7px;
 }
 
 #form-submit{
@@ -73,6 +75,7 @@ h3.contact-headers{
     
     .form-input{
         width: 80vw;  
+        height: 7vh; 
     }
 
     #message{
@@ -90,7 +93,7 @@ h3.contact-headers{
     }
 
     .form-input{
-        width: 60vw;  
+        width: 60vw; 
     }
 
     #message{
