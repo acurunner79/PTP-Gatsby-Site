@@ -21,6 +21,7 @@ img#navlogo-1{
     padding-top: 100px;
     position: absolute;
     bottom: 7vh;
+    z-index: -20;
 }
 
 div.right-nav.open {

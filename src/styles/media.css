@@ -1,5 +1,5 @@
 .media-headers{
-    margin-top: 140px;
+    margin: 80px auto;
 }
 
 .video-card-container:-webkit-scrollbar-track{
@@ -94,12 +94,20 @@ div.video-card-container{
     margin: 40px auto;
 }
 
-#youtube-link{
+#youtube-button{
     margin: 60px 0;
+    border: 2px solid rgb(21, 170, 148);
+    color: rgb(21, 170, 148);
+    width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(36, 35, 39);
     transition: transform .4s;
 }
 
-#youtube-link:hover{
+#youtube-button:hover{
     transform: scale(1.1);
 }
 

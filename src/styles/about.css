@@ -6,6 +6,10 @@ h1.about-headers{
     margin: 40px auto;
 }
 
+h3.about-names{
+    margin-top: 15px;
+}
+
 #about-container{
     margin: 0 auto;
     text-align: center;
@@ -26,6 +30,13 @@ h1.about-headers{
     padding: 10px;
     align-items: center;
     margin: 40px auto;
+    transition: transform .4s;
+}
+
+.about-card:hover{
+    border: 2px solid rgb(194, 225, 20);
+    background-color: rgb(21, 21, 22);
+    transform: scale(1.05);
 }
 
 .headshot-card{
@@ -50,6 +61,7 @@ img.img{
     transition: transform .4s;
 }
 
+
 .buttons:hover{
     transform: scale(1.1);
 }
@@ -61,13 +73,9 @@ img.img{
 
     .about-card{
         width: 80vw;
-        transition: transform .4s;
+        
     }
 
-    .about-card:hover{
-        border: 2px solid rgb(194, 225, 20);
-        transform: scale(1.05);
-    }
 }
 
 @media(min-width: 1023px){

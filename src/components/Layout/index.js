@@ -66,9 +66,10 @@ ol, ul, li{
 
 img#mobile-logo{
   width: 48vw;
-  position: absolute;
+  position: fixed;
   left: 2vw;
-  top: 0.5vh;
+  top: 0.1vh;
+  z-index: 30;
 }
 
 @media(min-width: 767px){

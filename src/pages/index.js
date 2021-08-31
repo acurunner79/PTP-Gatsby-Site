@@ -17,7 +17,7 @@ const IndexPage = (props) => {
       <div id="upper-container">
         <MoveStuffAround />
           <h1 className="home-headers">A Path Less Traveled</h1>
-          <p>Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
+          <p >Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
       </div>
       <div className="slider">
         <Carousel class="rounded">

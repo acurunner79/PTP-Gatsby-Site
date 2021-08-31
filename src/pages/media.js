@@ -23,7 +23,7 @@ const Media = (props) => {
                 <h3>{props.data.allYoutubeVideo.edges[0].node.title}</h3>
             </div>
             </div><br/><br/>
-            <h1 id="middle-header">More videos from Path Trading Partners</h1>
+            {/* <h1 id="middle-header">More videos from Path Trading Partners</h1> */}
             <div id="featured-videos">
                 <h2 className="vids-cont-label">Latest Videos</h2>
                 <div className="video-card-container">
@@ -106,7 +106,7 @@ const Media = (props) => {
                         <h3 className="video-title">{props.data.allYoutubeVideo.edges[12].node.title}</h3>
                     </div>
                 </div> 
-            <h3 id="youtube-link"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">Check out our Youtube channel</a> <FaYoutube color="red" size="40"/></h3>
+            <button id="youtube-button"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">Check out our Youtube channel</a> <FaYoutube color="red" size="40"/></button>
             </div>
         </Layout>
     )

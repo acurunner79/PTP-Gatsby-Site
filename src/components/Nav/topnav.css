@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+#nav-container{
+    width: 100% !important;
+    height: 17vh !important;
+    background-color: black !important;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+
 nav#navbar{
     display: none;
 }
@@ -42,6 +51,10 @@ a{
     .topnav-link{
         padding: 15px 0 0 0 !important;
         transition: transform .4s;
+    }
+
+    .active{
+        color: white !important;
     }
 
     .topnav-link:hover{
