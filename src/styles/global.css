@@ -5,7 +5,7 @@
 
 div#stock-ticker-container{
   background-color: rgba(0, 0, 0, 0.308) !important;
-  max-width: 750px;
+  max-width: 950px;
   padding: 0 10px;
   margin: 160px 0 60px 0;
   
@@ -27,5 +27,6 @@ h1.headline{
   
   #stock-ticker-container{
     border-radius: 8px;
+    margin: 0 auto !important;
   }
 }

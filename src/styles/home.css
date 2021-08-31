@@ -70,6 +70,18 @@
     background-color: rgb(21, 21, 22);
   }
 
+  h3.courses-header{
+    color: rgb(21, 170, 148) !important;
+  }
+
+  .card-icons{
+    transition: transform .4s;
+    color: rgb(194, 225, 20) !important;
+  }
+
+  .card-icons:hover{
+  }
+
   #lower-container{
     display: flex;
     flex-direction: column;

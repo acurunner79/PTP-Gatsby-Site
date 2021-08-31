@@ -55,32 +55,32 @@ const IndexPage = (props) => {
       <div id="mid-container">
         <Link to="/courses">
           <div className="mid-cont-card">
-            <FaDesktop size="70" color="rgb(21, 170, 148)"/>
-              <h3>Trading Courses</h3>
+            <FaDesktop className="card-icons" size="65" color="white"/>
+              <h3 className="courses-header">Trading Courses</h3>
               <p className="path-text">Trading education that starts with the basics and leaves you with an understanding of complex trading products.</p><br/>
                 <h4 id="tools-link">Go here</h4>
           </div>
         </Link>
         <Link to="/courses">
           <div className="mid-cont-card">
-            <FaChartLine size="70" color="rgb(21, 170, 148)"/>
-            <h3>Techniques</h3>
+            <FaChartLine size="65" color="white"/>
+            <h3 className="courses-header">Techniques</h3>
             <p className="path-text">Learn actionable trading strategies. Step by step TOP DOWN analysis that leads you to a yes or no decision on trade selection.</p>
             <h4 id="tools-link">Go here</h4>
           </div>
         </Link>
         <Link to="/tools">
           <div className="mid-cont-card">
-            <FaLaptop size="70" color="rgb(21, 170, 148)"/>
-            <h3>Tools</h3>
+            <FaLaptop size="65" color="white"/>
+            <h3 className="courses-header">Tools</h3>
             <p className="path-text">PTP's strategy specific tools that make trading decisions as clear as possible.</p><br/>
             <h4 id="tools-link">Go here</h4>
           </div>
         </Link>
         <Link to="/media">
           <div className="mid-cont-card">
-            <FaUser size="70" color="rgb(21, 170, 148)"/>
-            <h3>Video & Media</h3>
+            <FaUser size="65" color="white"/>
+            <h3 className="courses-header">Video & Media</h3>
             <p className="path-text">Education cannot cover all possible trading scenarios. We offer live Q&A webinars to help you with situation specific questions.</p>
             <h4 id="tools-link">Go here</h4>
           </div>

@@ -48,7 +48,7 @@ a{
 }
 
 h1{
-  font-size: 50px;
+  font-size: 48px;
   color: rgb(21, 170, 148) !important;
 }
 

@@ -22,6 +22,10 @@ a{
 }
 
 @media (min-width: 767px){
+    #nav-container{
+        height: 10vh !important;
+    }
+
     nav#navbar{
         display: flex;
         justify-content: space-evenly;
@@ -46,6 +50,7 @@ a{
         justify-content: space-evenly;
         align-items: center;
         list-style: none;
+        padding: 0;
     }
 
     .topnav-link{
