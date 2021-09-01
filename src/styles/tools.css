@@ -16,6 +16,7 @@ div#tools-container{
     background-color: rgb(36, 35, 39);
     border: 2px solid rgb(131, 131, 131);
     border-radius: 10px;
+    /* width: 95vw; */
     padding: 30px;
     margin: 20px;
     align-items: center;
@@ -60,7 +61,7 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
 
 @media(min-width: 767px){
     h1#tools-header{
-        margin-top: 80px;
+        margin-top: 140px;
     }
 
     h3.motivewave-links, h3.kinetick-links, h3.ninjatrader-links{
@@ -75,7 +76,7 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
     }
 }
 
-@media(min-width: 1339px){
+@media(min-width: 1439px){
     div#tools-container{
         flex-direction: row;
         justify-content: space-between;
@@ -100,7 +101,7 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
     }
 }
 
-@media(min-width: 1779px){
+@media(min-width: 1879px){
     div#tools-container{
         max-width: 2205px;
         margin: 80px auto;
@@ -112,5 +113,11 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
     
     h3.kinetick-links{
         padding-top: 230px;
+    }
+}
+
+@media(min-width: 2559px){
+    h1#tools-header{
+        margin-top: 180px;
     }
 }

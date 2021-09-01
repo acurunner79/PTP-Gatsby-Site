@@ -41,7 +41,7 @@ const IndexPage = (props) => {
           </Carousel.Item>
         </Carousel>
       </div><br/>
-        <h1 className="home-headers">Stock Think Tank</h1><br/>
+        <h2 className="home-headers">Stock Think Tank</h2><br/>
       <div id="pdf-container">
         <img id="pdf" src="https://res.cloudinary.com/acurunner79/image/upload/v1629129945/STT_newsletter_vol002issue007-1_td3p6w.png" alt="pdf-bob"/>
         <div id="stock-think-tank-card">
@@ -51,7 +51,7 @@ const IndexPage = (props) => {
           <h4 id="pdf-link"><a target="_blank" rel="noreferrer" href="https://alternativedaily.s3.amazonaws.com/StockThinkTank/Newsletters/STT_newsletter_vol002issue007.pdf">Read full article</a></h4>
         </div>
       </div>
-        <h1 className="home-headers">Find Your Path</h1>
+        <h2 className="home-headers">Find Your Path</h2>
       <div id="mid-container">
         <Link to="/courses">
           <div className="mid-cont-card">

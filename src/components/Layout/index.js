@@ -3,6 +3,8 @@ import { createGlobalStyle } from "styled-components";
 import Nav from '../Nav/index'
 import Hamburger from '../Nav/Hamburger/index'
 import Footer from '../Footer/index'
+import ScrollButton from "../ScrollButton";
+import { Content } from '../ScrollButton/style'
 import PTPHorizontalLogo from '../../images/pathtradingpartners_horizontal.png'
 
 
@@ -87,6 +89,7 @@ const Layout = ({ children }) => {
         <img id="mobile-logo" src={PTPHorizontalLogo} alt="mobile-view-logo"/>
         <Hamburger />
         <Nav/>
+        <ScrollButton />
             <section>{children}</section> 
         <Footer />
       </div>

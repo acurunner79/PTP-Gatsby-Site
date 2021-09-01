@@ -13,6 +13,12 @@ h1.courses-headers{
     /* width: 99vw; */
 }
 
+h2.courses-headers{
+    font-size: 35px;
+    margin-top: 40px;
+    color: rgb(21, 170, 148);
+}
+
 div#shop-container{
     display: flex;
     flex-direction: column;
@@ -47,12 +53,13 @@ div#shop-container{
 }
 
 @media(min-width: 767px){
-    h3.courses-headers{
+    h1.courses-headers{
+        margin-top: 140px !important;
         font-size: 45px;
     }
 }
 
-@media(min-width: 1339px){
+@media(min-width: 1439px){
     h3.courses-headers{
         font-size: 55px;
     }
@@ -64,5 +71,11 @@ div#shop-container{
     
     .shop-card{
         width: 600px;
+    }
+}
+
+@media(min-width: 2559px){
+    h1.courses-headers{
+        margin-top: 180px !important;
     }
 }

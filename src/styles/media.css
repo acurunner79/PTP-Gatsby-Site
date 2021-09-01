@@ -99,7 +99,7 @@ div.video-card-container{
     margin: 60px 0;
     border: 2px solid rgb(21, 170, 148);
     color: rgb(21, 170, 148);
-    width: 400px;
+    width: 95vw;
     padding: 10px;
     border-radius: 8px;
     font-size: 20px;
@@ -115,6 +115,10 @@ div.video-card-container{
 @media(min-width: 767px){
     div.video-card{
         width: 44vw !important;
+    }
+
+    #youtube-button{
+        max-width: 400px;
     }
 }
 
@@ -133,5 +137,11 @@ div.video-card-container{
 @media(min-width: 1439px){
     .video-title{
         font-size: 18px;
+    }
+}
+
+@media(min-width: 2559px){
+    .media-headers{
+        padding-top: 140px;
     }
 }

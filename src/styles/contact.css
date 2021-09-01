@@ -1,5 +1,5 @@
 #contact-form{
-    margin: 120px auto;
+    margin: 140px auto;
 }
 
 #contact-card{
@@ -88,6 +88,10 @@ h3.contact-headers{
 }
 
 @media(min-width: 1023px){
+    #contact-form{
+        margin: 160px auto;
+    }
+
     #contact-card{
         width: 70vw;
     }
@@ -106,6 +110,10 @@ h3.contact-headers{
 }
 
 @media(min-width: 1439px){
+    #contact-form{
+        margin: 180px auto;
+    }
+
     #contact-card{
         width: 60vw;
     }
@@ -124,6 +132,10 @@ h3.contact-headers{
 }
 
 @media(min-width: 1879px){
+    #contact-form{
+        margin: 200px auto;
+    }
+    
     #contact-card{
         max-width: 786px;
     }

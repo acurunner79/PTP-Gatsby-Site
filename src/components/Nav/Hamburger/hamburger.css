@@ -2,7 +2,7 @@ div.hamburger {
     /* padding-top: 40px; */
     position: fixed;
     right: 8vw;
-    top: 7vh;
+    top: 5.5vh;
     width: 2rem;
     display: flex;
     justify-content: space-around;
