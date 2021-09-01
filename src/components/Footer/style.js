@@ -8,9 +8,9 @@ ul li{
     padding: 6px 0 !important;
 }
 
-h5{
+h5.footer-text{
     font-size: 14px;
-    color: white;
+    color: rgb(131, 131, 131);
     padding: 6px 0;
 }
 
@@ -141,6 +141,10 @@ div#footer-main{
         width: 1440px;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 0.8fr);
+    }
+
+    h5{
+        font-size: 18px;
     }
 
     img#footer-logo{
