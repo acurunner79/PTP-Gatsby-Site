@@ -45,11 +45,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-trigger-deploy`,
+      resolve: 'gatsby-plugin-favicons',
       options: {
-        secretKey: 'a super secret key, maybe with emojis? 🍕',
-        addressCallback: 'http://localhost/endpoint/for/notifying',
-      },
+        logo: './src/images/PTP-Favicon.png'
+      }
     },
     // {
     //   resolve: 'gatsby-plugin-mailchimp',
