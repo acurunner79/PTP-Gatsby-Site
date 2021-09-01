@@ -8,6 +8,10 @@ ul li{
     padding: 6px 0 !important;
 }
 
+h5{
+    font-size: 15px;
+}
+
 h5.footer-text{
     font-size: 14px;
     color: rgb(131, 131, 131);
