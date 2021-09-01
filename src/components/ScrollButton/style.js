@@ -23,6 +23,8 @@ export const Button = styled.div`
     #arrow-icon{
         margin: 10px;
         transition: transform .2s;
+        backdrop-filter: contrast(60%);
+        border-radius: 8px;
     }
     
     #arrow-icon:hover{
