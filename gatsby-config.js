@@ -45,9 +45,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-favicons',
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        logo: './src/images/PTP-Favicon.png'
+        name: 'Path Trading Partners',
+        short_name: 'PTP',
+        start_url: '/',
+        background_color: '#5C5C5B',
+        display: 'standalone',
+        icon: 'src/images/PTP-Favicon.png',
       }
     },
     // {
