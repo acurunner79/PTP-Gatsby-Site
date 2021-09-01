@@ -25,7 +25,7 @@ const ScrollButton = () =>{
         });
     };
   
-    Window.addEventListener('scroll', toggleVisible);
+   const window = window.addEventListener('scroll', toggleVisible);
   
     return (
         <Button id="scrollbutton">
