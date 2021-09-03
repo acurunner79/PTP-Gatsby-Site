@@ -49,11 +49,13 @@ const About = () => {
                             </a>
                         </div>
                         <div className="about-card">
-                            <a target="_blank" rel="noreferrer" href="https://path-trading-partners.teachable.com/">
+                            {/* <a target="_blank" rel="noreferrer" href="https://path-trading-partners.teachable.com/"> */}
+                            <Link to="/contact">
                                 <GiTeacher size="70" color="rgb(21, 170, 148)"/>
                                 <h2>Personal Coaching</h2>
                                 <p>Path Trading Partners offers one on one personal coaching on an extremely limited basis. We are traders first and taking time to coach potential traders one on one takes time away from our trading and therefore is done on a case by case basis. We offer live webinars in all of our training packages to make sure our traders get the personal attention that can be the difference between success and failure when pursuing a trading career. If you are however, interested in personal coaching, please email support at support@pathtradingpartners.com with the subject line “Personal Coaching” and we will set up a time to discuss your needs and try work with you on a personal coaching package.</p>
-                            </a>
+                            </Link>
+                            {/* </a> */}
                         </div>
                     </div>
              </div>

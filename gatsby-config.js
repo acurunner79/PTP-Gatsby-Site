@@ -40,8 +40,8 @@ module.exports = {
       resolve: `gatsby-source-youtube-v3`,
       options: {
         channelId: ['UCDFTQBiJea-YwAdiB6121aA'],
-        apiKey: 'AIzaSyC_Nk5v8pQlCJEXhXi-Qe7zy6Qt8mqBPJs', // Optional for public requests
-        // maxVideos: 50 // Defaults to 50
+        apiKey: process.env.REACT_APP_APIKEY, // Optional for public requests
+        maxVideos: 50 // Defaults to 50
       },
     },
     {

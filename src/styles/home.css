@@ -63,7 +63,7 @@
     border: 2px solid rgb(131, 131, 131) !important;
     border-radius: 8px;
     margin: 10px 10px;
-    padding-top: 8px;
+    /* padding-top: 8px; */
     width: 300px;
     height: 300px;
     transition: transform .4s;
@@ -71,7 +71,7 @@
   div.mid-cont-card:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.541);
-    border: 2px solid rgb(194, 225, 20) !important;
+    border: 2px solid rgb(21, 170, 148) !important;
     background-color: rgb(21, 21, 22);
   }
 
@@ -81,7 +81,14 @@
 
   .card-icons{
     transition: transform .4s;
-    color: rgb(194, 225, 20) !important;
+  }
+  
+  div.mid-cont-card:hover .card-icons{
+    color: rgb(21, 170, 148) !important;
+  }
+
+  div.mid-cont-card:hover h3.courses-header{
+    color: white !important;
   }
 
   #lower-container{
@@ -173,7 +180,7 @@
     margin: 20px auto !important;
   }
   
-  div.mid-cont-card{
+  /* div.mid-cont-card{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -181,17 +188,16 @@
     border: 2px solid rgb(131, 131, 131) !important;
     border-radius: 8px;
     margin: 10px 10px;
-    padding-top: 8px;
     width: 300px;
     height: 300px;
     transition: transform .4s;
-  }
-  div.mid-cont-card:hover{
+  } */
+  /* div.mid-cont-card:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.541);
     border: 2px solid rgb(194, 225, 20) !important;
     background-color: rgb(21, 21, 22);
-  }
+  } */
   
   p.path-text{
     text-align: center;
