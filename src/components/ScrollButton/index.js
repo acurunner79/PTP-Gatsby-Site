@@ -34,7 +34,7 @@ const ScrollButton = () =>{
         <div id="scrollbutton-container">
             <Button id="scrollbutton">
             <h6 id="scrollbutton-label" style={{display: visible ? 'block' : 'none'}}>Top</h6>
-            <BsChevronDoubleUp id="arrow-icon" size="60" color="rgb(21, 170, 148)" onClick={scrollToTop} 
+            <BsChevronDoubleUp id="arrow-icon" size="50" color="rgb(21, 170, 148)" onClick={scrollToTop} 
                 style={{display: visible ? 'inline' : 'none'}} />
             </Button>
         </div>
