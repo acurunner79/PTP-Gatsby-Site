@@ -2,9 +2,8 @@ p{
     text-align: left;
 }
 
-p.courses-text{
-    padding: 10px;
-    width: 100%;
+.courses-text{
+    padding: 20px !important;
 }
 
 h1.courses-headers{
@@ -40,12 +39,26 @@ div#shop-container{
 }
 
 .shop-card:hover{
-    border: 2px solid rgb(194, 225, 20);
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.541);
+    border: 2px solid rgb(21, 170, 148);
+    background-color: rgb(21, 21, 22);
     transform: scale(1.05);
+}
+
+.shop-card:hover #courses-icon{
+    color: rgb(21, 170, 148) !important;
+}
+
+.shop-card:hover .course-subject{
+    color: white !important;
 }
 
 #courses-icon{
     margin: 30px;
+}
+
+.course-subject{
+    color: rgb(21, 170, 148) !important;
 }
 
 .buttons{

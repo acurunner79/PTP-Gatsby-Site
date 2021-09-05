@@ -15,22 +15,22 @@ const Nav = () => {
                <Link to="/">
                   <img id="navlogo-2" src={PTPHorizontalLogo} alt="ptp-logo"/>
                </Link>
-               <Link to="/" className="topnav-link" activeClassName="active" isCurrent="true">
+               <Link to="/" className="topnav-link" activeClassName="active" iscurrent="true">
                   <li>Home</li>
                </Link>
-               <Link to="/courses" className="topnav-link" activeClassName="active" isCurrent="true">
+               <Link to="/courses" className="topnav-link" activeClassName="active" iscurrent="true">
                   <li>Courses</li>  
                </Link>
-               <Link to="/tools" className="topnav-link" activeClassName="active" isCurrent="true">
+               <Link to="/tools" className="topnav-link" activeClassName="active" iscurrent="true">
                   <li>Tools</li> 
                </Link>
-               <Link to="/media" className="topnav-link" activeClassName="active" isCurrent="true">
+               <Link to="/media" className="topnav-link" activeClassName="active" iscurrent="true">
                   <li>Media</li> 
                </Link>
-               <Link to="/about" className="topnav-link" activeClassName="active" isCurrent="true">
+               <Link to="/about" className="topnav-link" activeClassName="active" iscurrent="true">
                   <li>About</li> 
                </Link>
-               <Link to="/contact" className="topnav-link" activeClassName="active" isCurrent="true">
+               <Link to="/contact" className="topnav-link" activeClassName="active" iscurrent="true">
                   <li>Contact</li> 
                </Link>  
             </ul>     

@@ -25,7 +25,9 @@ div#tools-container{
 }
 
 .tools-card:hover{
-    border: 2px solid rgb(194, 225, 20);
+    border: 2px solid rgb(21, 170, 148);
+    background-color: rgb(21, 21, 22);
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.541);
     transform: scale(1.05);
 }
 
@@ -51,13 +53,13 @@ div#tools-container{
     padding: 40px;
 }
 
-h3.motivewave-links, h3.kinetick-links, h3.ninjatrader-links{
+/* h3.motivewave-links, h3.kinetick-links, h3.ninjatrader-links{
     transition: transform .4s;
 }
 
 h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
     transform: scale(1.1);
-}
+} */
 
 @media(min-width: 767px){
     h1#tools-header{

@@ -11,16 +11,18 @@ import '../styles/home.css'
 
 
 const IndexPage = (props) => {
+  console.log('props', props)
   return (
     <Layout>
       <Seo />
       <div id="upper-container">
-        <MoveStuffAround />
-          <h1 className="home-headers">A Path Less Traveled</h1>
+        <h1 className="home-headers">Path Trading Partners</h1>
+          {/* <h2 className="home-headers">A Path Less Traveled</h2> */}
           <p >Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
+        <MoveStuffAround />
       </div>
       <div className="slider">
-        <Carousel class="rounded">
+        <Carousel className="rounded">
           <Carousel.Item>
             <Img className="carousel-image" fluid={props.data.slideImage1.childImageSharp.fluid} alt="1"/>
             <Carousel.Caption>
@@ -126,5 +128,7 @@ export const query = graphql`
         }
       }
     }
-  }
+  },
+  
+  
 `

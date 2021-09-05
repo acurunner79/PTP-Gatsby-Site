@@ -109,6 +109,8 @@ div.video-card-container{
 }
 
 #youtube-button:hover{
+    background-color: rgb(21, 21, 22);
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.541);
     transform: scale(1.1);
 }
 

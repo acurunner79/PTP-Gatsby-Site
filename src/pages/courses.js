@@ -1,11 +1,29 @@
 import React from 'react'
 import Layout  from '../components/Layout'
 import Seo from "../components/SEO/index"
+import RichText from '../components/RichText'
 import { FaDesktop } from "react-icons/fa"
+import { graphql, useStaticQuery } from 'gatsby'
 import '../styles/courses.css'
 
 
 const Courses = () => {
+    const query = useStaticQuery(graphql`
+    query HighlightedCourses {
+        allContentfulHighlightedCourse {
+            edges {
+                node {
+                    subject
+                    mainDescription {
+                        raw
+                    }
+                }
+            }
+        }
+    }
+    `)
+    console.log('courses props', query.allContentfulHighlightedCourse.edges[0].node)
+
     return (
         <Layout>
             <Seo />
@@ -14,20 +32,20 @@ const Courses = () => {
                     <h2 className="courses-headers">Featured Courses</h2>
             <div id="shop-container">
                 <div className="shop-card">
-                    <FaDesktop id="courses-icon" size="90" color="rgb(21, 170, 148)"/>
-                    <h2>Doubles</h2>
-                    <h3>How to trade Doubles, a very reliable reversal pattern</h3>
-                    <p className="courses-text">In this course we provide a breakdown of traditional double tops and bottoms and what's wrong with them. We will also provide concrete rules for finding PTP High-Probability Doubles along with step-by-step instructions on how to trade PTP High-Probability Doubles.</p>
+                    <FaDesktop id="courses-icon" size="90" color="white"/>
+                    <h2 className="course-subject">{query.allContentfulHighlightedCourse.edges[0].node.subject}</h2>
+                    <RichText className="courses-text" raw={query.allContentfulHighlightedCourse.edges[0].node.mainDescription.raw}/>
                 </div>
                 <div className="shop-card">
-                    <FaDesktop id="courses-icon" size="90" color="rgb(21, 170, 148)"/>
-                    <h2>Support, Resistance, and Significant Levels</h2>
-                    <p className="courses-text">Support and Resistance is great, but are you aware that not all levels are created equal? Many traders think of support and resistance as just a support line or a resistance line. They treat this line as an exact science and don’t have a consistent way of drawing the lines or determining trades to take off of the support and resistance lines. In This course set, you will learn our concept of Significant Levels. A Significant Level is an area of the market to which price has had a strong emotional reaction, and is likely to have a strong reaction again. Learn to spot them, draw them and use them to trade and plce good, solid stop-loss orders.</p>
+                    <FaDesktop id="courses-icon" size="90" color="white"/>
+                    <h2 className="course-subject">{query.allContentfulHighlightedCourse.edges[1].node.subject}</h2>
+                    <RichText className="courses-text" raw={query.allContentfulHighlightedCourse.edges[1].node.mainDescription.raw}/>
                 </div>
                 <div className="shop-card">
-                    <FaDesktop id="courses-icon" size="90" color="rgb(21, 170, 148)"/>
-                    <h2>Candlesticks and Candlestick Math</h2>
-                    <p className="courses-text">Introduction of opening and closing price to bars and classification of bars inclusive of opening and closing price. Review of trading by living candle by candle and the negative impact to trading performance. Dealing with noise in the market and the utilization of candlestick math to mitigate market noise. A Review of candlestick bars and characteristics. Analysis and practical application of candlestick patterns.</p>
+                    <FaDesktop id="courses-icon" size="90" color="white"/>
+                    <h2 className="course-subject">{query.allContentfulHighlightedCourse.edges[2].node.subject}</h2>
+
+                    <RichText className="courses-text" raw={query.allContentfulHighlightedCourse.edges[2].node.mainDescription.raw}/>
                 </div>
             </div>
             <button className="buttons"><a target="_blank" rel="noreferrer" href="https://path-trading-partners.teachable.com/">Enroll now</a></button >
@@ -38,3 +56,4 @@ const Courses = () => {
 
 
 export default Courses
+

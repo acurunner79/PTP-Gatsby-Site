@@ -1,5 +1,13 @@
 const path = require(`path`)
 
+require("dotenv").config({
+  path: `.env`,
+});
+
+// require("dotenv").config({
+//   path: `.env.${process.env.NODE_ENV}`,
+// })
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.pathtradingpartners.com",
@@ -40,8 +48,9 @@ module.exports = {
       resolve: `gatsby-source-youtube-v3`,
       options: {
         channelId: ['UCDFTQBiJea-YwAdiB6121aA'],
-        apiKey: process.env.REACT_APP_APIKEY, // Optional for public requests
-        maxVideos: 50 // Defaults to 50
+        apiKey: process.env.GATSBY_YOUTUBE_APIKEY, 
+        // apiKey: "AIzaSyC_Nk5v8pQlCJEXhXi-Qe7zy6Qt8mqBPJs",
+        // maxVideos: 50 
       },
     },
     {
@@ -54,6 +63,14 @@ module.exports = {
         display: 'standalone',
         icon: 'src/images/PTP-Favicon.png',
       }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+          spaceId: process.env.CONTENTFUL_SPACE_ID,
+          accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+          host: process.env.CONTENTFUL_HOST,
+      },
     },
     // {
     //   resolve: 'gatsby-plugin-mailchimp',

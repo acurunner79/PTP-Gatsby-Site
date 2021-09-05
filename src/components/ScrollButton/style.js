@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
   
 export const Button = styled.div`
-#scrollbutton{
+#scrollbutton, #scrollbutton-label{
     display: none;
 }
 
@@ -26,15 +26,11 @@ export const Button = styled.div`
         transition-timing-function: ease-in-out;
     }
     
-    #button-top-label{
-        position: fixed;
-        text-align: center !important;
-        bottom: 30px;
-        right: 45px;
+    #scrollbutton-label{
+        display: block;
         color: rgb(21, 170, 148);
-        width: auto;
-        padding: 0;
         font-weight: 600;
+        margin: 0 auto;
     }
     
     #arrow-icon{
@@ -43,7 +39,7 @@ export const Button = styled.div`
         /* backdrop-filter: contrast(60%); */
         backdrop-filter: blur(3px);
         border-radius: 8px;
-        /* background-color: rgba(0, 0, 0, 0.6); */
+        background-color: rgba(0, 0, 0, 0.6);
     }
     
     #arrow-icon:hover{

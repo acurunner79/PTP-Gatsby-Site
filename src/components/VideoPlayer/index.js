@@ -3,7 +3,7 @@ import { Button } from 'react-player-controls'
 import { Direction, Slider } from 'react-player-controls'
 import { FaPlay, FaPause, FaVolumeMute } from 'react-icons/fa'
 import { GiSoundOn } from 'react-icons/gi'
-import { graphql } from 'gatsby'
+// import { graphql } from 'gatsby'
 import '../../styles/videoPlayer.css'
 import ReactPlayer from 'react-player'
 

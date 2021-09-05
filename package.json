@@ -32,6 +32,7 @@
     "gatsby-plugin-sharp": "^3.10.2",
     "gatsby-plugin-styled-components": "^4.10.0",
     "gatsby-plugin-trigger-deploy": "^0.0.2",
+    "gatsby-source-contentful": "^5.13.0",
     "gatsby-source-filesystem": "^3.10.0",
     "gatsby-source-youtube-v3": "^3.0.2",
     "gatsby-transformer-sharp": "^3.10.0",

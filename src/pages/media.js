@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql } from 'gatsby'
 import ReactPlayer from 'react-player/youtube'
 import { FaYoutube } from 'react-icons/fa'
-import VideoPlayer from '../components/VideoPlayer/index'
+// import VideoPlayer from '../components/VideoPlayer/index'
 import '../styles/media.css'
 
 const Media = (props) => {

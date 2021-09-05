@@ -1,10 +1,9 @@
 import React from "react"
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 import Nav from '../Nav/index'
 import Hamburger from '../Nav/Hamburger/index'
 import Footer from '../Footer/index'
-import ScrollButton from "../ScrollButton";
-import { Content } from '../ScrollButton/style'
+import ScrollButton from "../ScrollButton"
 import PTPHorizontalLogo from '../../images/pathtradingpartners_horizontal.png'
 
 
