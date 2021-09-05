@@ -39,7 +39,7 @@ export const Button = styled.div`
         /* backdrop-filter: contrast(60%); */
         backdrop-filter: blur(3px);
         border-radius: 8px;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(21, 21, 22, 0.6);
     }
     
     #arrow-icon:hover{
