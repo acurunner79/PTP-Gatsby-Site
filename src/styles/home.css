@@ -1,11 +1,12 @@
 @media(min-width: 320px){
   p{
-    margin-top: 10px;
+    margin: 10px auto auto auto;
     padding: 0 8px;
   }
 
   h1.home-headers{
     margin-top: 200px !important;
+    font-size: 55px;
   }
 
   h2.home-headers{
@@ -126,6 +127,7 @@
   }
   
   p{
+    width: 80vw;
     font-size: 15px;
     text-indent: 0.8rem;
     padding: 0 8px;
@@ -251,7 +253,7 @@
 @media (min-width: 768px){
 
   p{
-    width: 550px;
+    max-width: 550px;
     margin: 0 auto;
   }
   

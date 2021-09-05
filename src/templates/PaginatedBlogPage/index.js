@@ -9,8 +9,8 @@ const PaginatedBlogPage = ({pageContext}) => {
     console.log(pageContext.posts)
     return (
         <Layout>
-                <h1>Welcome to PTP's Blog</h1>
             <Content>
+                <h1 id="blog-header">Welcome to PTP's Blog</h1>
                 {pageContext.posts.map((post) => (
                     <Post key={post.contentful_id}>
                         <div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Layout  from '../components/Layout/index'
 import Seo from "../components/SEO/index"
 import { Link } from 'gatsby'
-import { FaLaptop } from 'react-icons/fa'
+import { FaLaptop, FaTwitter } from 'react-icons/fa'
 import { GiTeacher } from 'react-icons/gi'
 import '../styles/about.css'
 
@@ -26,6 +26,7 @@ const About = () => {
                         <img className="img" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190051/bob-i_qjkyxl.jpg" alt="bob"/>
                         <h3 className="about-names">Bob Iaccino</h3>
                         <h5>Chief Market Strategist</h5>
+                        <FaTwitter className="twitter-icon" color="rgb(21, 170, 148)" size="40"/>
                         <Link to="/bob">
                             <button className="buttons">More about Bob</button>
                         </Link>
@@ -34,6 +35,7 @@ const About = () => {
                         <img className="img" src="https://res.cloudinary.com/acurunner79/image/upload/v1628190633/MIKE-A1_m6idie.jpg" alt="mike"/>
                         <h3 className="about-names">Mike Arnold</h3>
                         <h5>Head of Trading Systems</h5>
+                        <FaTwitter className="twitter-icon" color="rgb(21, 170, 148)" size="40"/>
                         <Link to="/mike">
                             <button className="buttons">More about Mike</button>
                         </Link>

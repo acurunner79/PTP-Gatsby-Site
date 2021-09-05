@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../../components/Layout/index'
 import RichText from '../../components/RichText/index'
 import Seo from '../../components/SEO/index'
+import { BlogContent } from '../BlogPost/style'
 
 
 const BlogPost = (props) => {
@@ -13,7 +14,9 @@ const BlogPost = (props) => {
                 title={props.data.contentfulBlogPost.title} 
                 description={props.data.contentfulBlogPost.description}
                 />
-            <RichText raw={props.data.contentfulBlogPost.pageContent.raw}/>
+            <BlogContent>
+                <RichText raw={props.data.contentfulBlogPost.pageContent.raw}/>
+            </BlogContent>
         </Layout>
     )
 }

@@ -12,8 +12,6 @@ const Footer = () => {
             <div id="footer-main">
                 <div id="grid-1">
                     <img id="footer-logo" src={PTPSmall} alt="ptp-logo"/>
-                    {/* <h2>Logo here</h2> */}
-                    {/* <h5>Some text in here under the logo thats relevant to the company</h5> */}
                     <div id="footer-social-media">
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pathtradingpartners">
                         <FaFacebook className="social-media-icons" size="35" color="rgb(21, 170, 148)"/>
