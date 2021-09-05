@@ -16,19 +16,19 @@ const Footer = () => {
                     {/* <h5>Some text in here under the logo thats relevant to the company</h5> */}
                     <div id="footer-social-media">
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pathtradingpartners">
-                        <FaFacebook className="social-media-icons" size="35" color=""/>
+                        <FaFacebook className="social-media-icons" size="35" color="rgb(21, 170, 148)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://twitter.com/Path_Trading">
-                        <FaTwitter className="social-media-icons" size="35" color=""/>
+                        <FaTwitter className="social-media-icons" size="35" color="rgb(21, 170, 148)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-arnold-61240467/?trk=hp-identity-name">
-                        <FaLinkedin className="social-media-icons" size="35" color=""/>
+                        <FaLinkedin className="social-media-icons" size="35" color="rgb(21, 170, 148)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">
-                        <FaYoutube className="social-media-icons" size="35" color=""/>
+                        <FaYoutube className="social-media-icons" size="35" color="rgb(21, 170, 148)"/>
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/pathtradingpartners/">
-                        <FaInstagram className="social-media-icons" size="35" color=""/>
+                        <FaInstagram className="social-media-icons" size="35" color="rgb(21, 170, 148)"/>
                         </a>
                     </div>
                 </div>
@@ -59,8 +59,10 @@ const Footer = () => {
                     <ul>
                         <h3>Resourses</h3>
                         <li><a target="_blank" rel="noreferrer" href="https://www.purexposuremediagroup.com/">PureXposure</a></li>
-                        <li>Shop Think Tank</li>
-                        <li>Our Sponsors</li>
+                        <li><a target="_blank" rel="noreferrer" href="http://thestockthinktank.com/">Stock Think Tank</a></li>
+                        <Link to="/tools">
+                            <li>Our Sponsors</li>
+                        </Link>
                         <Link to="/terms">
                             <li>Terms & Conditions</li>
                         </Link>

@@ -8,6 +8,10 @@ ul li{
     padding: 6px 0 !important;
 }
 
+a{
+    color: lightgray !important;
+}
+
 h5{
     font-size: 15px;
 }
@@ -131,7 +135,7 @@ div#footer-main{
 
     .social-media-icons:hover{
         transform: scale(1.3);
-        color: white;
+        color: white !important;
     }
 
     #grid-4{
