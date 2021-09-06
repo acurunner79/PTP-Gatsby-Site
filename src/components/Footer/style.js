@@ -144,6 +144,12 @@ div#footer-main{
   
 }
 
+@media(min-width: 1279px){
+    #footer-social-media{
+        padding-bottom: 35px;
+    }
+}
+
 @media(min-width: 1439px){
     div#footer-main{
         width: 1440px;
