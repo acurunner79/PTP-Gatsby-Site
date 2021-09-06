@@ -1,5 +1,6 @@
 p{
     text-align: left;
+    padding-bottom: 10px !important;
 }
 
 .courses-text{
@@ -32,8 +33,9 @@ div#shop-container{
     background-color: rgb(36, 35, 39);
     border: 2px solid rgb(131, 131, 131);
     border-radius: 10px;
+    width: 95vw !important;
     padding: 10px;
-    margin: 10px 10px;
+    margin: 10px auto !important;
     align-items: center;
     transition: transform .4s;
 }
@@ -72,10 +74,19 @@ div#shop-container{
     }
 }
 
+@media(min-width: 1023px){
+    .shop-card{
+        width: 80vw !important;
+        padding: 20px;
+    }
+}
+
 @media(min-width: 1439px){
     h3.courses-headers{
         font-size: 55px;
     }
+
+
 
     div#shop-container{
         flex-direction: row;
@@ -83,7 +94,11 @@ div#shop-container{
     }
     
     .shop-card{
-        width: 600px;
+        max-width: 600px;
+    }
+
+    .courses-text {
+        max-width: 550px !important;
     }
 }
 
