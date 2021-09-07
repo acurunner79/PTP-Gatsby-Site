@@ -4,7 +4,7 @@
 } 
 
 div#stock-ticker-container{
-  background-color: rgba(0, 0, 0, 0.308) !important;
+  background-color: rgba(0, 0, 0, 0.508) !important;
   max-width: 950px;
   padding: 0 10px;
   margin: 100px auto 60px auto !important;
@@ -13,7 +13,7 @@ div#stock-ticker-container{
 h1.headline{
   font-family: 'SubwayTicker';
   /* color: rgb(111, 195, 95)!important; */
-  color: rgba(255, 255, 255, 0.801) !important;
+  /* color: rgba(255, 255, 255, 0.801) !important; */
   font-size: 45px !important;
   white-space: nowrap;
   margin: 0 auto;

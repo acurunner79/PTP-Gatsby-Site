@@ -70,7 +70,7 @@ const Footer = () => {
                     <h5><AiOutlineMail size="20"/> support@pathtradingpartners.com</h5>
                     <h5><AiOutlineFieldTime size="20"/> Monday-Friday 7am-4pm CST</h5>
                     <br/>
-                    {/* <p><a target="_blank" rel="noreferrer" href="https://jorgesotocoder.com/">Contact web designer</a></p> */}
+                    <p id="developer-link"><a id="dev-a" target="_blank" rel="noreferrer" href="https://jorgesotocoder.com/">Contact web designer</a></p>
                 </div>
                 <div id="grid-5">
                     <h5 className="footer-text">Path Trading Partners is not an investment advisor and information found on the websitedoes not constitute investmentadvice nor an offer. Solicitation or recommendation to aquire or dispose of any investment or to engage in any other transaction.The information on this site is here only for use as general information. All descriptions, example, and calculations contained herien are for illustrative purposes only. The risk of loss in trading the foreign exchange, futures, and equity & options markets can be substantial. You should therefore carefully consider whether such trading is suitable for you in light of your financial condition. Past performance is not indictive of future results.</h5>

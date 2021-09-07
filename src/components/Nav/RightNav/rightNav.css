@@ -17,8 +17,8 @@
 
 img#navlogo-1{
     width: 30vw;
-    margin: 0 40px;
-    padding-top: 100px;
+    margin: 0 44px;
+    /* padding-top: 100px; */
     position: absolute;
     bottom: 7vh;
     z-index: -20;
@@ -35,6 +35,10 @@ div.links-container{
    flex-direction: column;
    text-align: left;
    width: 90%;
+}
+
+.active{
+    color: white !important;
 }
 
 @media(min-width: 424px){

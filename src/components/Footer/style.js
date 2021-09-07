@@ -22,6 +22,25 @@ h5.footer-text{
     padding: 6px 0;
 }
 
+p#developer-link{
+    width: 160px;
+    margin: 0 0 0 10px!important;
+    /* border: 2px solid lightgray; */
+    border-radius: 8px;
+    padding: 0 !important;
+    text-align: left;
+    transition: transform .4s;
+}
+
+p#developer-link:hover{
+    transform: scale(1.1);
+}
+
+#dev-a{
+    font-size: 12px;
+    padding: 0 !important;
+}
+
 img#footer-logo{
     width: 250px;
     margin: 0 auto;
