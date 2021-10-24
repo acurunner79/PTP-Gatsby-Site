@@ -1,12 +1,13 @@
 const path = require(`path`)
 
-require("dotenv").config({
-  path: `.env`,
-});
-
 // require("dotenv").config({
-//   path: `.env.${process.env.NODE_ENV}`,
-// })
+//   path: `.env`,
+// });
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+console.log('env',process.env.GATSBY_YOUTUBE_APIKEY)
 
 module.exports = {
   siteMetadata: {
@@ -48,8 +49,8 @@ module.exports = {
       resolve: `gatsby-source-youtube-v3`,
       options: {
         channelId: ['UCDFTQBiJea-YwAdiB6121aA'],
-        apiKey: process.env.GATSBY_YOUTUBE_APIKEY, 
-        // apiKey: "AIzaSyC_Nk5v8pQlCJEXhXi-Qe7zy6Qt8mqBPJs",
+        // apiKey: process.env.GATSBY_YOUTUBE_APIKEY, 
+        apiKey: "AIzaSyC_Nk5v8pQlCJEXhXi-Qe7zy6Qt8mqBPJs",
         // maxVideos: 50 
       },
     },
@@ -67,15 +68,18 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-          spaceId: process.env.CONTENTFUL_SPACE_ID,
-          accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-          host: process.env.CONTENTFUL_HOST,
+          // spaceId: process.env.CONTENTFUL_SPACE_ID,
+          // accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+          // host: process.env.CONTENTFUL_HOST,
+          spaceId: "8zr4pkf5x5n7",
+          accessToken: "P5ue_3oTut0GeCRYaoDnY0UbGSg0UnZS00deZfRCLnI",
+          host: "preview.contentful.com",
       },
     },
     // {
     //   resolve: 'gatsby-plugin-mailchimp',
     //   options: {
-    //       endpoint: '', // string; add your MC list endpoint here; see instructions below
+    //       endpoint: 'https://pathtradingpartners.us11.list-manage.com/subscribe/post?u=4a8d7bcf9a03094f501f72c12&id=400cc4e8bd', // string; add your MC list endpoint here; see instructions below
     //       timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
     //   },
     // },

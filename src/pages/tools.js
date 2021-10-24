@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from 'gatsby'
 import Layout  from '../components/Layout'
 import Seo from "../components/SEO/index"
 import '../styles/tools.css'
@@ -8,7 +9,7 @@ const tools = () => {
         <Layout>
             <Seo />
             <h1 id="tools-header">Tools</h1>
-            <p>We need some text to fill this space. It will give this page a better look. </p>
+            <p>Path Trading Partners is proud to have the support of our partners MotiveWave, NinjaTrader, Kinetick, and TradingView. Please feel free to visit the site of our partners below or head back to the courses page <a href="/courses">Here</a> to see what Path Trading Partners has to offer.</p>
             <div id="tools-container">
                 <div className="tools-card">
                     <img id="motivewave-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1628536007/logo_250x250_2_bykyty.png" alt="Motive Wave"></img>

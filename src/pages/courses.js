@@ -28,7 +28,7 @@ const Courses = () => {
         <Layout>
             <Seo />
             <h1 className="courses-headers">Trade the Path Way</h1>
-                    <p>At Path Trading Partners, we have created our courses with the mission of taking you from beginning to end, from amateur to professional. Our courses include introduction, product structure, strategy and tools. If something seems too easy, finish it anyway. If something seems too advanced, review it multiple times. If you take your trading education as seriously as we take our trading and our research, the only obstacle in your path will be time.</p>
+                    <p id="courses-descr-text">At Path Trading Partners, we have created our courses with the mission of taking you from beginning to end, from amateur to professional. Our courses include introduction, product structure, strategy and tools. If something seems too easy, finish it anyway. If something seems too advanced, review it multiple times. If you take your trading education as seriously as we take our trading and our research, the only obstacle in your path will be time.</p>
                     <h2 className="courses-headers">Featured Courses</h2>
             <div id="shop-container">
                 <div className="shop-card">

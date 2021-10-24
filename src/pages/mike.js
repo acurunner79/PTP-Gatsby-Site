@@ -14,7 +14,7 @@ const Mike = () => {
                 <div id="about-mike-container">
                     <img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_500/v1628190633/MIKE-A1_m6idie.jpg" alt="mike"/>
                     <ul>
-                        <li>25 Year Market Veteran</li>
+                        <li>30 Year Market Veteran</li>
                         <li>Teaching Traders Online and in Person for 10+ Years</li>
                         <li>Strategy and Development Consultant to Multiple Hedge Funds</li>
                         <li>Former Options Maker on Multiple Exchanges</li>

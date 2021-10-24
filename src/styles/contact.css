@@ -35,6 +35,15 @@
     padding-left: 7px;
 }
 
+#subscribe{
+    display: flex;
+    margin-left: 30px;
+}
+
+#subscribe h5{
+    margin-left: 5px;
+}
+
 #form-submit{
     border: 2px solid rgb(21, 170, 148);
     width: 80vw;

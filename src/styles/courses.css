@@ -40,20 +40,20 @@ div#shop-container{
     transition: transform .4s;
 }
 
-.shop-card:hover{
+/* .shop-card:hover{
     box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.541);
     border: 2px solid rgb(21, 170, 148);
     background-color: rgb(21, 21, 22);
     transform: scale(1.05);
-}
+} */
 
-.shop-card:hover #courses-icon{
+/* .shop-card:hover #courses-icon{
     color: rgb(21, 170, 148) !important;
 }
 
 .shop-card:hover .course-subject{
     color: white !important;
-}
+} */
 
 #courses-icon{
     margin: 30px;
@@ -105,5 +105,10 @@ div#shop-container{
 @media(min-width: 2559px){
     h1.courses-headers{
         margin-top: 180px !important;
+    }
+
+    p#courses-descr-text{
+        font-size: 20px !important;
+        max-width: 700px !important;
     }
 }

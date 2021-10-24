@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout/index'
 import Seo from "../components/SEO/index"
 import { AiOutlineMail, AiOutlineFieldTime } from 'react-icons/ai'
+import { Checkbox } from 'pretty-checkbox-react';
 import '../styles/contact.css'
 
 
@@ -46,6 +47,10 @@ const Contact = () => {
                         </textarea>
                     </label>
                         <br/>
+                        <div id="subscribe">
+                            <Checkbox></Checkbox>
+                            <h5> Click to subscribe</h5>
+                        </div>
                     <button id="form-submit" type="submit">Submit</button>
                 </form>
                 </div>

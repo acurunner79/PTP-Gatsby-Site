@@ -23,6 +23,7 @@ const Media = (props) => {
                 <h3>{props.data.allYoutubeVideo.edges[0].node.title}</h3>
             </div>
             </div><br/><br/>
+            <button id="youtube-button"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDFTQBiJea-YwAdiB6121aA">Check out our Youtube channel</a> <FaYoutube color="red" size="40"/></button>
             {/* <h1 id="middle-header">More videos from Path Trading Partners</h1> */}
             <div id="featured-videos">
                 <h2 className="vids-cont-label">Latest Videos</h2>
