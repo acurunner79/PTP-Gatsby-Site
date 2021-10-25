@@ -1,32 +1,95 @@
-import React from 'react'
+import React, { useState} from 'react'
 import Layout from '../components/Layout/index'
 import Seo from "../components/SEO/index"
 import { AiOutlineMail, AiOutlineFieldTime } from 'react-icons/ai'
-import { Checkbox } from 'pretty-checkbox-react';
+// import { Checkbox } from 'pretty-checkbox-react';
+import addToMailchimp from 'gatsby-plugin-mailchimp'
+import listFields from 'gatsby-plugin-mailchimp'
 import '../styles/contact.css'
 
 
 
 const Contact = () => {
+
+    const [firstName, setFirstName] = useState(null)
+    const [lastName, setLastName] = useState(null)
+    const [data, setData] = useState(null)
+
+    const handleChange = (event) => {
+        setLastName({lastName, [event.target.name]: event.target.value})
+        setData({data, [event.target.name]: event.target.value})
+        // console.log('handleChange', handleChange)
+    }
+    
+    const firstNameChange = (event) => {
+        setFirstName({firstName, [event.target.name]: event.target.value})
+    }
+
+    const lastNameChange = (event) => {
+        setLastName({lastName, [event.target.name]: event.target.value})
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        
+
+        const FNAME = firstName
+        const LNAME = lastName
+
+        addToMailchimp(data.data.email, listFields={
+            FNAME, LNAME
+        })
+        .then(({ msg, result }) => {
+            console.log('msg', `${result}: ${msg}`)
+            
+            if (result !== 'success') {
+                throw msg
+            }
+            alert(msg)
+        })
+        .catch(err => {
+            console.log('err', err)
+            alert(err)
+        })
+        // console.log('data', data)
+        // console.log('first', firstName)
+        // console.log('last', lastName)
+        // console.log('listField',listFields)
+    }
+   
     return (
         <Layout>
             <Seo />
             <div id="contact-form">
                 <div id="contact-card">
                     <h1 className="contact-headers">Contact Us</h1>
-                <form>
-                    <label className ="form-title">Name<br/>
+                <form onSubmit={handleSubmit}>
+                    <label className ="form-title">First Name<br/>
                         <input className="form-input"
-                            type="name"
-                            name ="name"
+                            type="First Name"
+                            name ="first"
+                            // value={firstName}
+                            onChange={firstNameChange}
+                            placeholder=" (Required)">
+                        </input>
+                    </label>
+                        <br/>
+                    <label className ="form-title">Last Name<br/>
+                        <input className="form-input"
+                            type="Last Name"
+                            name ="last"
+                            // value={lastName}
+                            onChange={lastNameChange}
                             placeholder=" (Required)">
                         </input>
                     </label>
                         <br/>
                     <label className ="form-title">Email<br/>
                         <input className="form-input"
-                            type="email"
+                            type="Email"
                             name="email"
+                            // value={email}
+                            onChange={handleChange}
                             placeholder=" (Required)">
                         </input>
                     </label>
@@ -48,7 +111,9 @@ const Contact = () => {
                     </label>
                         <br/>
                         <div id="subscribe">
-                            <Checkbox></Checkbox>
+                            <input 
+                            type="checkbox"
+                            onChange={handleChange}/>
                             <h5> Click to subscribe</h5>
                         </div>
                     <button id="form-submit" type="submit">Submit</button>
