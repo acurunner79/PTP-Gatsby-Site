@@ -71,6 +71,10 @@ h3.contact-headers{
     color: rgb(21, 170, 148);
 }
 
+#sent-message{
+    margin: 200px auto 80px auto;
+}
+
 @media(min-width: 767px){
     h3.contact-headers{
         font-size: 45px;

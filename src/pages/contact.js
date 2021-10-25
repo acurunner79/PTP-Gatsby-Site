@@ -1,10 +1,12 @@
 import React, { useState} from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/Layout/index'
 import Seo from "../components/SEO/index"
 import { AiOutlineMail, AiOutlineFieldTime } from 'react-icons/ai'
 // import { Checkbox } from 'pretty-checkbox-react';
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-import listFields from 'gatsby-plugin-mailchimp'
+import { ValidationError, useForm } from '@formspree/react'
+// import listFields from 'gatsby-plugin-mailchimp'
 import '../styles/contact.css'
 
 
@@ -36,9 +38,7 @@ const Contact = () => {
         const FNAME = firstName
         const LNAME = lastName
 
-        addToMailchimp(data.data.email, listFields={
-            FNAME, LNAME
-        })
+        addToMailchimp(data.data.email)
         .then(({ msg, result }) => {
             console.log('msg', `${result}: ${msg}`)
             
@@ -56,6 +56,21 @@ const Contact = () => {
         // console.log('last', lastName)
         // console.log('listField',listFields)
     }
+
+    const [state, formSubmit] = useForm("mnqlylrn");
+      if (state.succeeded) {
+        return (
+            <Layout>
+                <div id="sent-message">
+                    <h1>Thank you!</h1>
+                    <h1>Your message has been sent</h1>
+                    <Link to="/main">
+                        <button id="form-submit"><h3>Home Page</h3></button>   
+                    </Link>
+               </div>
+            </Layout>
+         )
+      }
    
     return (
         <Layout>
@@ -63,7 +78,8 @@ const Contact = () => {
             <div id="contact-form">
                 <div id="contact-card">
                     <h1 className="contact-headers">Contact Us</h1>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit, formSubmit} method="POST">
+                <ValidationError field="email" prefix="Email" errors={state.errors} />
                     <label className ="form-title">First Name<br/>
                         <input className="form-input"
                             type="First Name"
@@ -116,7 +132,7 @@ const Contact = () => {
                             onChange={handleChange}/>
                             <h5> Click to subscribe</h5>
                         </div>
-                    <button id="form-submit" type="submit">Submit</button>
+                    <button id="form-submit" type="submit" disabled={state.submitting}>Submit</button>
                 </form>
                 </div>
                 <div id="contact-info">
