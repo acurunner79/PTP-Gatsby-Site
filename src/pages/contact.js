@@ -64,7 +64,7 @@ const Contact = () => {
                 <div id="sent-message">
                     <h1>Thank you!</h1>
                     <h1>Your message has been sent</h1>
-                    <Link to="/main">
+                    <Link to="/">
                         <button id="form-submit"><h3>Home Page</h3></button>   
                     </Link>
                </div>
