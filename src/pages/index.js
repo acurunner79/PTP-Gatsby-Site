@@ -21,7 +21,7 @@ const IndexPage = (props) => {
           <p >Path Trading Partners was started by Mike Arnold and Bob Iaccino with one goal in mind: To remove the fog and mystery of trading and active investing and show the novice and journeyman trader alike that there is a path you can take to trading success. It is not the path most tell you. It is the Path Less Traveled.</p>
         <MoveStuffAround />
       </div>
-      <div className="slider">
+      {/* <div className="slider">
         <Carousel className="rounded">
           <Carousel.Item>
             <Img className="carousel-image" fluid={props.data.slideImage1.childImageSharp.fluid} alt="1"/>
@@ -42,7 +42,7 @@ const IndexPage = (props) => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </div> */}
         <br/>
       <h2 className="home-headers"><a target="_blank" rel="noreferrer" href="http://thestockthinktank.com/">Stock Think Tank</a></h2>
         <br/>
