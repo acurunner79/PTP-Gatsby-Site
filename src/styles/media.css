@@ -18,7 +18,7 @@ div#main-video-card{
 
 div#main-video{
     max-width: 1280px !important;
-    max-height: 650px !important;
+    max-height: 700px !important;
     width: 98% !important;
     height: 100% !important;
     position: absolute;
@@ -72,7 +72,7 @@ div.video-card{
     justify-content: space-between;
     text-align: left;
     width: 92vw !important;
-    max-height: 230px !important;
+    max-height: 270px !important;
     margin: 10px;
 }
 
@@ -126,7 +126,7 @@ div.video-card-container{
 
 @media(min-width: 1023px){
     div.video-card{
-        max-width: 450px;
+        max-width: 480px;
     }
 }
 
@@ -139,6 +139,29 @@ div.video-card-container{
 @media(min-width: 1439px){
     .video-title{
         font-size: 18px;
+    }
+
+    div#main-video{
+        width: 1250px !important;
+        height: 700px !important;
+        /* background-size: cover !important; */
+    }
+
+    #main-video-card{
+        height: 700px;
+    }
+
+    div.vid-slot{
+        height: 350px;
+    }
+
+    div.video-card{
+        /* width: 400px !important; */
+        /* height: 240px !important; */
+    }
+
+    div.video-card-container{
+        height: 350px;
     }
 }
 
