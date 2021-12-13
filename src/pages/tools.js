@@ -17,6 +17,11 @@ const tools = () => {
                     <h3 className="motivewave-links"><a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP">Get Started for FREE!</a></h3>
                 </div>
                 <div className="tools-card">
+                    <img id="tradingview-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1635221903/logo-preview_lgceto_q7lfae.png" alt="TradingView"></img>
+                    <p>What's TradingView? We're a charting platform and social network used by 30M+ traders and investors worldwide to spot opportunities across global markets.</p><p>Look first / Then leap. It's what you'd call our philosophy, that it doesn't matter who you are or what you trade, preparing first then committing is the best way of maximizing life's returns. We see this spirit in our users every day.</p>
+                    <h3 className="motivewave-links"><a target="_blank" rel="noreferrer" href="https://www.tradingview.com/">Get Started!</a></h3>
+                </div>
+                <div className="tools-card">
                     <img id="ninjatrader-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="Ninjatrader"></img>
                     <p>NinjaTrader® is our #1 recommended trading software preferred by traders worldwide including our clients.</p><br/>
                     <p>NinjaTrader’s award-winning trading platform is consistently voted an industry leader by the trading community. Featuring 1000s of Apps & Add-Ons for unlimited customization, NinjaTrader is used by over 60,000 traders for advanced market analysis, professional charting and fast order execution.</p><br/>

@@ -53,6 +53,11 @@ div#tools-container{
     padding: 40px;
 }
 
+#tradingview-logo{
+    width: 80vw;
+    border-radius: 8px;
+}
+
 /* h3.motivewave-links, h3.kinetick-links, h3.ninjatrader-links{
     transition: transform .4s;
 }
@@ -75,6 +80,10 @@ h3.motivewave-links:hover, h3.kinetick-links:hover, h3.ninjatrader-links:hover{
     .tools-card{
         width: 60vw;
         margin: 20px auto;
+    }
+
+    #tradingview-logo{
+        width: 413px;
     }
 }
 
