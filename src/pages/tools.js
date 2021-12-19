@@ -4,7 +4,7 @@ import Layout  from '../components/Layout'
 import Seo from "../components/SEO/index"
 import '../styles/tools.css'
 
-const tools = () => {
+const Tools = () => {
     return (
         <Layout>
             <Seo />
@@ -47,4 +47,4 @@ const tools = () => {
     )
 }
 
-export default tools
+export default Tools
