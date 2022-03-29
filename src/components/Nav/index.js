@@ -7,8 +7,8 @@ import './topnav.css'
 const Nav = () => {
 
     return ( 
-       <div id="nav-container">
-        <nav id="navbar">
+      <div id="nav-container">
+         <nav id="navbar">
            {/* <div id="image-container">
            </div> */}
             <ul id="nav-links">
@@ -34,8 +34,8 @@ const Nav = () => {
                   <li>Contact</li> 
                </Link>  
             </ul>     
-        </nav>
-        </div>
+         </nav>
+      </div>
     );
   };
 
