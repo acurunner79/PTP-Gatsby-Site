@@ -27,7 +27,6 @@
     "font-face": "^2.3.4",
     "gatsby": "^4.16.0",
     "gatsby-image": "^3.10.0",
-    "gatsby-image-background-slider": "^0.0.4",
     "gatsby-plugin-gatsby-cloud": "^4.16.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-mailchimp": "^5.2.2",
