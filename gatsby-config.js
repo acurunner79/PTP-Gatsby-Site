@@ -24,6 +24,12 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`), 
       },
     },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-3543268789520735`
+      },
+    },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-react-helmet",
