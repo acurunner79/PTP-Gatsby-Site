@@ -38,8 +38,10 @@ div#tools-container{
 }
 
 #motivewave-logo{
-    width: 240px;
-    height: 240px;
+    width: 397px;
+    margin: 40px;
+    border-radius: 8px;
+    /* height: 240px; */
 }
 
 #ninjatrader-logo{
@@ -56,6 +58,7 @@ div#tools-container{
 #tradingview-logo{
     width: 80vw;
     border-radius: 8px;
+    margin: 40px;
 }
 
 /* h3.motivewave-links, h3.kinetick-links, h3.ninjatrader-links{

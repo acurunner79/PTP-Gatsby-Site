@@ -31,6 +31,7 @@
   img.vendors-image{
     width: 90vw !important;
     padding: 0;
+    border-radius: 8px;
   }
 
   #pdf-link{
@@ -116,6 +117,7 @@
   img.vendors-image{
     width: 350px;
     padding: 40px 20px;
+    border-radius: 8px;
   }
 }
 
@@ -204,6 +206,7 @@
   img.vendors-image{
     width: 350px;
     padding: 40px 20px;
+    border-radius: 8px;
   }
 }
 
@@ -263,6 +266,7 @@
 
   img.vendors-image{
     width: 45vw !important;
+    border-radius: 8px;
   }
 
   div#vendors-card{
@@ -326,6 +330,7 @@
   
   .vendors-image{
     transition: transform .2s;
+    border-radius: 8px;
   }
   
   .vendors-image:hover{
@@ -349,6 +354,7 @@
   
   img.vendors-image{
     width: 20vw !important;
+    border-radius: 8px;
   }
   
 }

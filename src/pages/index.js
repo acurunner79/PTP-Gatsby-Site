@@ -95,7 +95,7 @@ const IndexPage = (props) => {
         <div id="vendors-card">
           <a target="_blank" rel="noreferrer" href="http://ninjatrader.com/LP/VendorDemo/"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628789547/NinjaTrader_Logo_rliz92.png" alt="ninjatrader-logo"/></a>
           <a target="_blank" rel="noreferrer" href="http://kinetick.com/NinjaTrader"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628790304/Kinetick_Logo_blfs7z.png" alt="kinetick-logo"/></a>
-          <a target="_blank" rel="noreferrer" href="http://www.motivewave.com/free_trial.htm?af=5308106904961024&c=PTP"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628741382/logo2_hqkjwo.png" alt="motivewave-logo"/></a>
+          <a target="_blank" rel="noreferrer" href="http://www.stockrover.com/pathtradingpartners"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1664027741/SR_Logo_Rectangle_prk7my.png" alt="stockrover-logo"/></a>
           <a target="_blank" rel="noreferrer" href="https://www.tradingview.com/gopro/?share_your_love=spekul8r"><img className="vendors-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1628807971/logo-preview_lgceto.png" alt="tradingview-logo"/></a>
         </div>  
       </div>
