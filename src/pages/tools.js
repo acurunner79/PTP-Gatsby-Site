@@ -8,7 +8,7 @@ const Tools = () => {
         <Layout>
             <Seo />
             <h1 id="tools-header">Tools</h1>
-            <p>Path Trading Partners is proud to have the support of our partners MotiveWave, NinjaTrader, Kinetick, and TradingView. Please feel free to visit the site of our partners below or head back to the courses page <a href="/courses">Here</a> to see what Path Trading Partners has to offer.</p>
+            <p>Path Trading Partners is proud to have the support of our partners Stock Rover, NinjaTrader, Kinetick, and TradingView. Please feel free to visit the site of our partners below or head back to the courses page <a href="/courses">Here</a> to see what Path Trading Partners has to offer.</p>
             <div id="tools-container">
                 <div className="tools-card">
                     <img id="motivewave-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1664027741/SR_Logo_Rectangle_prk7my.png" alt="Motive Wave"></img>
