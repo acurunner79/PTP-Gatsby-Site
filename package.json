@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@formspree/react": "^2.4.4",
+    "@netlify/plugin-gatsby": "^3.6.2",
     "@parcel/namer-default": "^2.9.3",
     "ads.txt": "^0.4.0",
     "axios": "^1.4.0",
